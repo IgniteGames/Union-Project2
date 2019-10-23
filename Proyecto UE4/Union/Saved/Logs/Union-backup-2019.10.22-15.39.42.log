@@ -1,0 +1,1476 @@
+﻿Log file open, 10/22/19 18:33:00
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Union
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.800467
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin GLTFImporter
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin BlastPlugin
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin Substance
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin DatasmithCADImporter
+LogPluginManager: Mounting plugin DatasmithDataPrepEditor
+LogPluginManager: Mounting plugin DatasmithFBXImporter
+LogPluginManager: Mounting plugin DatasmithGLTFImporter
+LogPluginManager: Mounting plugin DatasmithImporter
+LogPluginManager: Mounting plugin MDLImporter
+LogPluginManager: Mounting plugin StaticMeshEditorExtension
+LogPluginManager: Mounting plugin VariantManager
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz, GPU: Intel(R) UHD Graphics 630
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.10.22-09.33.00:968][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.10.22-09.33.00:968][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.10.22-09.33.00:968][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Engine.ini]
+[2019.10.22-09.33.00:968][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.10.22-09.33.00:968][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.10.22-09.33.00:968][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:1]]
+[2019.10.22-09.33.00:968][  0]LogConfig: Setting CVar [[r.GBufferFormat:3]]
+[2019.10.22-09.33.00:968][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:512]]
+[2019.10.22-09.33.00:968][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Engine.ini]
+[2019.10.22-09.33.00:968][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Engine.ini]
+[2019.10.22-09.33.00:968][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.10.22-09.33.00:968][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.10.22-09.33.00:968][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.10.22-09.33.00:968][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.10.22-09.33.00:968][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.10.22-09.33.00:968][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.10.22-09.33.00:968][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.10.22-09.33.00:968][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.10.22-09.33.00:968][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.10.22-09.33.00:968][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.10.22-09.33.00:968][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.10.22-09.33.00:968][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.10.22-09.33.00:968][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.10.22-09.33.00:968][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Engine.ini]
+[2019.10.22-09.33.00:968][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.10.22-09.33.00:968][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.10.22-09.33.00:968][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.10.22-09.33.00:968][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.10.22-09.33.00:968][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.10.22-09.33.00:968][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.10.22-09.33.00:969][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.10.22-09.33.00:969][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.10.22-09.33.00:969][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.10.22-09.33.00:969][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.10.22-09.33.00:969][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.10.22-09.33.00:969][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.10.22-09.33.00:969][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.10.22-09.33.00:969][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Engine.ini]
+[2019.10.22-09.33.00:969][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Engine.ini]
+[2019.10.22-09.33.00:973][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-09.33.00:973][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.22-09.33.00:973][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.22-09.33.00:973][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-09.33.00:973][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.22-09.33.00:973][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-09.33.00:973][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.22-09.33.00:973][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.22-09.33.00:973][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.22-09.33.00:973][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.22-09.33.00:973][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.22-09.33.00:973][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.22-09.33.00:974][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.22-09.33.00:975][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.22-09.33.00:975][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.10.22-09.33.00:999][  0]LogHAL: Display: Platform has ~ 32 GB [34197495808 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.10.22-09.33.00:999][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.10.22-09.33.00:999][  0]LogInit: Going up to parent DeviceProfile []
+[2019.10.22-09.33.01:000][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@Cine] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:10.0]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@Cine] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:6]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@Cine] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:4096]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:4096]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:4]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:16]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@Cine] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:4]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:1000]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.LensFlareQuality:3]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:1       ; bokeh simulation when gathering]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:5                 ; high number of samples when gathering]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; background scattering occlusion]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; no bokeh simulation when scattering]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:2                ; highest slight out of focus]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:1    ; bokeh simulation on slight out of focus]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Applying CVar settings from Section [TextureQuality@Cine] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:3000]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@Cine] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.SSR.Quality:4]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2019.10.22-09.33.01:000][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.22-09.33.01:001][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.22-09.33.01:001][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@Cine] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.10.22-09.33.01:001][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.22-09.33.01:001][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.22-09.33.01:001][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.10.22-09.33.01:005][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.10.22-09.33.01:005][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.10.22-09.33.01:005][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:1]]
+[2019.10.22-09.33.01:005][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Engine.ini]
+[2019.10.22-09.33.01:006][  0]LogInit: Computer: DESKTOP-BGGG2GK
+[2019.10.22-09.33.01:006][  0]LogInit: User: user
+[2019.10.22-09.33.01:006][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.10.22-09.33.01:006][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.10.22-09.33.01:006][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2019.10.22-09.33.01:006][  0]LogMemory: Platform Memory Stats for Windows
+[2019.10.22-09.33.01:006][  0]LogMemory: Process Physical Memory: 98.95 MB used, 98.95 MB peak
+[2019.10.22-09.33.01:006][  0]LogMemory: Process Virtual Memory: 95.29 MB used, 95.29 MB peak
+[2019.10.22-09.33.01:006][  0]LogMemory: Physical Memory: 9540.80 MB used,  23072.47 MB free, 32613.27 MB total
+[2019.10.22-09.33.01:006][  0]LogMemory: Virtual Memory: 4666.28 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2019.10.22-09.33.01:201][  0]LogInit: Using OS detected language (en-US).
+[2019.10.22-09.33.01:201][  0]LogInit: Using OS detected locale (en-US).
+[2019.10.22-09.33.01:202][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.10.22-09.33.01:594][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.10.22-09.33.01:594][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.10.22-09.33.03:462][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.22-09.33.03:462][  0]LogD3D11RHI: D3D11 adapters:
+[2019.10.22-09.33.03:703][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (Feature Level 11_0)
+[2019.10.22-09.33.03:703][  0]LogD3D11RHI:       8031/0/16306 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.10.22-09.33.03:718][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
+[2019.10.22-09.33.03:718][  0]LogD3D11RHI:       128/0/16306 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.10.22-09.33.03:720][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.10.22-09.33.03:720][  0]LogD3D11RHI:       0/0/16306 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.10.22-09.33.03:720][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.10.22-09.33.03:726][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.10.22-09.33.03:726][  0]LogD3D11RHI:     GPU DeviceId: 0x1f10 (for the marketing name, search the web for "GPU Device Id")
+[2019.10.22-09.33.03:726][  0]LogWindows: EnumDisplayDevices:
+[2019.10.22-09.33.03:727][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2019.10.22-09.33.03:727][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.10.22-09.33.03:727][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.10.22-09.33.03:727][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2019.10.22-09.33.03:727][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2019.10.22-09.33.03:728][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2019.10.22-09.33.03:728][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2019.10.22-09.33.03:728][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.10.22-09.33.03:728][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070 with Max-Q Design
+[2019.10.22-09.33.03:728][  0]LogD3D11RHI:   Driver Version: 436.15 (internal:26.21.14.3615, unified:436.15)
+[2019.10.22-09.33.03:728][  0]LogD3D11RHI:      Driver Date: 8-24-2019
+[2019.10.22-09.33.03:728][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
+[2019.10.22-09.33.03:813][  0]LogD3D11RHI: Async texture creation enabled
+[2019.10.22-09.33.03:820][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.10.22-09.33.03:821][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.10.22-09.33.03:821][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.10.22-09.33.03:835][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.10.22-09.33.04:154][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.10.22-09.33.04:167][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.10.22-09.33.04:180][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.10.22-09.33.04:192][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.10.22-09.33.04:209][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.10.22-09.33.04:225][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.10.22-09.33.04:238][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.10.22-09.33.04:252][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.10.22-09.33.04:259][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.10.22-09.33.04:342][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.10.22-09.33.04:342][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.10.22-09.33.04:342][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.10.22-09.33.04:342][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.10.22-09.33.04:342][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.10.22-09.33.04:342][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.10.22-09.33.04:342][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.10.22-09.33.04:342][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.10.22-09.33.04:342][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.10.22-09.33.04:342][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.10.22-09.33.04:342][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.10.22-09.33.04:342][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.10.22-09.33.04:342][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.10.22-09.33.04:342][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.10.22-09.33.04:342][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.10.22-09.33.04:342][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.10.22-09.33.04:342][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.10.22-09.33.04:342][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.10.22-09.33.04:345][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.10.22-09.33.04:403][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.10.22-09.33.04:403][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.10.22-09.33.04:425][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.10.22-09.33.04:425][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.10.22-09.33.04:439][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.10.22-09.33.04:452][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.10.22-09.33.04:464][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.10.22-09.33.04:483][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.10.22-09.33.04:523][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.10.22-09.33.04:523][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.10.22-09.33.04:523][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.10.22-09.33.04:557][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.10.22-09.33.04:662][  0]LogShaderCompilers: Guid format shader working directory is -45 characters bigger than the processId version (../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Intermediate/Shaders/WorkingDirectory/8692/).
+[2019.10.22-09.33.04:662][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/user/AppData/Local/Temp/UnrealShaderWorkingDir/A6CACD564258858256B453AF89CFB92F/'.
+[2019.10.22-09.33.04:666][  0]LogXGEController: Cleaning working directory: C:/Users/user/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.10.22-09.33.04:666][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.10.22-09.33.04:666][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.10.22-09.33.04:666][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.10.22-09.33.06:459][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.10.22-09.33.06:532][  0]LogDerivedDataCache: Loaded boot cache 0.07s 73MB C:/Users/user/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.10.22-09.33.06:532][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/user/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.10.22-09.33.06:532][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.22-09.33.06:532][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.10.22-09.33.06:532][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.22-09.33.06:532][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.10.22-09.33.06:549][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.10.22-09.33.06:557][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
+[2019.10.22-09.33.06:569][  0]LogDerivedDataCache: Using Local data cache path C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.10.22-09.33.06:569][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.10.22-09.33.06:569][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.10.22-09.33.06:590][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.10.22-09.33.06:597][  0]LogSlate: Using FreeType 2.6.0
+[2019.10.22-09.33.06:612][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.22-09.33.06:854][  0]LogAssetRegistry: FAssetRegistry took 0.0336 seconds to start up
+[2019.10.22-09.33.07:202][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.22-09.33.07:474][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.10.22-09.33.07:475][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.10.22-09.33.07:475][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.10.22-09.33.07:475][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.10.22-09.33.07:475][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.10.22-09.33.07:520][  0]LogNetVersion: Union 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 524765613)
+[2019.10.22-09.33.08:571][  0]LogPackageLocalizationCache: Processed 16 localized package path(s) for 1 prioritized culture(s) in 0.067846 seconds
+[2019.10.22-09.33.08:577][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.10.22-09.33.08:577][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.10.22-09.33.08:577][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.10.22-09.33.11:200][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2019.10.22-09.33.11:214][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.10.22-09.33.11:230][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.10.22-09.33.11:377][  0]SourceControl: Source control is disabled
+[2019.10.22-09.33.11:377][  0]SourceControl: Source control is disabled
+[2019.10.22-09.33.11:386][  0]SourceControl: Source control is disabled
+[2019.10.22-09.33.11:390][  0]SourceControl: Source control is disabled
+[2019.10.22-09.33.11:399][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.10.22-09.33.11:400][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.10.22-09.33.11:676][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.10.22-09.33.11:741][  0]LogOcInput: OculusInput pre-init called
+[2019.10.22-09.33.14:185][  0]LogWindows: Failed to load 'libalias_api.dll' (GetLastError=126)
+[2019.10.22-09.33.14:185][  0]LogWindows: File 'libalias_api.dll' does not exist
+[2019.10.22-09.33.14:185][  0]LogWindows: Failed to load 'libalias_api.dll' (GetLastError=126)
+[2019.10.22-09.33.14:185][  0]LogWindows: File 'libalias_api.dll' does not exist
+[2019.10.22-09.33.14:365][  0]LogEngine: Initializing Engine...
+[2019.10.22-09.33.14:367][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.22-09.33.14:368][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.001 s
+[2019.10.22-09.33.14:729][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.10.22-09.33.14:763][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.10.22-09.33.14:794][  0]LogInit: XAudio2 using '스피커 (3- Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.22-09.33.14:850][  0]LogInit: FAudioDevice initialized.
+[2019.10.22-09.33.14:850][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.10.22-09.33.14:888][  0]LogDerivedDataCache: Saved boot cache 0.04s 73MB C:/Users/user/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.10.22-09.33.14:896][  0]LogInit: Texture streaming: Enabled
+[2019.10.22-09.33.14:917][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.10.22-09.33.15:318][  0]LogInit: Transaction tracking system initialized
+[2019.10.22-09.33.15:365][  0]BlueprintLog: New page: Editor Load
+[2019.10.22-09.33.15:530][  0]LocalizationService: Localization service is disabled
+[2019.10.22-09.33.15:699][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.10.22-09.33.15:700][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.10.22-09.33.16:175][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.10.22-09.33.16:175][  0]LogCook: Display: Mobile HDR setting 1
+[2019.10.22-09.33.16:433][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/' took 0.03s
+[2019.10.22-09.33.17:840][  0]SourceControl: Source control is disabled
+[2019.10.22-09.33.17:841][  0]Cmd: MAP LOAD FILE="../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Island.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.22-09.33.17:846][  0]LightingResults: New page: Lighting Build
+[2019.10.22-09.33.17:854][  0]MapCheck: New page: Map Check
+[2019.10.22-09.33.17:854][  0]LightingResults: New page: Lighting Build
+[2019.10.22-09.33.17:883][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2019.10.22-09.33.23:085][  0]LogAIModule: Creating AISystem for world Island
+[2019.10.22-09.33.24:088][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.22-09.33.24:117][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2019.10.22-09.33.24:117][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.22-09.33.24:117][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.139ms to complete.
+[2019.10.22-09.33.24:117][  0]LogFileHelpers: Loading map 'Island' took 6.277
+[2019.10.22-09.33.24:312][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-09.33.24:319][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-09.33.24:325][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-09.33.24:332][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.22-09.33.24:347][  0]LogCollectionManager: Loaded 0 collections in 0.001511 seconds
+[2019.10.22-09.33.24:391][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Collections/' took 0.01s
+[2019.10.22-09.33.24:391][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Developers/user/Collections/' took 0.01s
+[2019.10.22-09.33.24:391][  0]LogFileCache: Scanning file cache for directory 'C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Collections/' took 0.00s
+[2019.10.22-09.33.24:391][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.10.22-09.33.24:404][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2878 classes and 732 folders.
+[2019.10.22-09.33.24:422][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.10.22-09.33.24:429][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-09.33.24:436][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-09.33.24:449][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-09.33.24:454][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-09.33.24:459][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-09.33.24:464][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-09.33.24:469][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-09.33.24:474][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-09.33.24:480][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-09.33.24:485][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-09.33.24:490][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-09.33.24:495][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-09.33.24:500][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-09.33.24:505][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-09.33.24:510][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-09.33.24:514][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-09.33.24:539][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-09.33.24:544][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-09.33.24:549][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-09.33.24:554][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-09.33.24:559][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-09.33.24:564][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-09.33.24:569][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-09.33.24:574][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-09.33.24:579][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-09.33.24:584][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-09.33.24:589][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-09.33.24:594][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.22-09.33.24:719][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.10.22-09.33.24:725][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 0 folders.
+[2019.10.22-09.33.24:905][  0]LogSlate: Took 0.004905 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.10.22-09.33.24:912][  0]LogSlate: Took 0.005147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.10.22-09.33.24:920][  0]LogSlate: Took 0.004391 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.10.22-09.33.25:077][  0]LogRenderer: Reallocating scene render targets to support 1144x572 Format 10 NumSamples 1 (Frame:1).
+[2019.10.22-09.33.25:117][  0]LogStaticMesh: Allocated 512x384x128 distance field atlas = 48.0Mb, with 74 objects containing 46.3Mb backing data
+[2019.10.22-09.33.25:256][  0]LogSlate: Took 0.004983 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.22-09.33.25:339][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.10.22-09.33.25:339][  0]LogLoad: (Engine Initialization) Total time: 28.28 seconds
+[2019.10.22-09.33.25:339][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.10.22-09.33.25:416][  0]LogAssetRegistry: Asset discovery search completed in 18.5847 seconds
+[2019.10.22-09.33.25:419][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.10.22-09.33.25:419][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000061 seconds (updated 0 objects)
+[2019.10.22-09.33.25:423][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2019.10.22-09.33.25:559][  1]LogSubstanceLiveLink: Warning: Unable to send data along socket, closing connection
+[2019.10.22-09.33.30:833][ 16]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/' took 5.46s
+[2019.10.22-09.33.54:192][108]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-09.34.08:082][391]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.22-09.34.08:120][391]LogFactory: FactoryCreateFile: StaticMesh with ReimportSpeedTreeFactory (0 0 ../../../../../../Users/user/Dropbox/SpeedTrees/ExportToUE4/SM_Broad01.st)
+[2019.10.22-09.34.10:963][391]LogSlate: Window 'SpeedTree Options' being destroyed
+[2019.10.22-09.34.11:789][391]LogTexture: Display: Building textures: SM_Broad01_Color_Tex (AutoDXT, 4096X4096)
+[2019.10.22-09.34.16:234][391]LogTexture: Display: Building textures: SM_Broad01_Normal_Tex (AutoDXT, 4096X4096)
+[2019.10.22-09.34.20:232][391]LogTexture: Display: Building textures: SM_Broad01_Subsurface_Tex (AutoDXT, 4096X4096)
+[2019.10.22-09.34.20:768][391]LogMaterial: Display: Missing cached shader map for material SM_Broad01_Branch_Mat, compiling. 
+[2019.10.22-09.34.20:900][391]LogTexture: Display: Building textures: SM_Broad01_Color_Tex (AutoDXT, 4096X4096)
+[2019.10.22-09.34.26:199][391]LogTexture: Display: Building textures: SM_Broad01_Color_Tex (AutoDXT, 4096X4096)
+[2019.10.22-09.34.30:630][391]LogTexture: Display: Building textures: SM_Broad01_Normal_Tex (AutoDXT, 4096X4096)
+[2019.10.22-09.34.35:107][391]LogTexture: Display: Building textures: SM_Broad01_Normal_Tex (AutoDXT, 4096X4096)
+[2019.10.22-09.34.39:003][391]LogTexture: Display: Building textures: SM_Broad01_Subsurface_Tex (AutoDXT, 4096X4096)
+[2019.10.22-09.34.39:538][391]LogMaterial: Display: Missing cached shader map for material SM_Broad01_Leaf_Mat, compiling. 
+[2019.10.22-09.34.39:793][391]LogStaticMesh: Building static mesh SM_Broad01...
+[2019.10.22-09.34.40:617][391]LogStaticMesh: Built static mesh [0.82s] /Game/Vegetation/Trees/SM_Broad01.SM_Broad01
+[2019.10.22-09.34.46:466][391]LogMeshUtilities: Finished distance field build in 5.7s - 64x64x64 distance field, 20045 triangles, Range [-0.1, 1.0], SM_Broad01
+[2019.10.22-09.34.46:466][391]LogStaticMesh: Display: Main thread blocked for 5.686s for async distance field build of SM_Broad01 to complete!  This can happen if the mesh is rebuilt excessively.
+[2019.10.22-09.34.46:676][393]LogStaticMesh: Allocated 512x448x128 distance field atlas = 56.0Mb, with 75 objects containing 46.8Mb backing data
+[2019.10.22-09.35.25:686][539]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (39.040 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.10.22-09.40.58:046][889]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/SM_Broad01_Color_TexC2C89FB14119C2B6FA2C338EDBBF41BA.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/Materials/SM_Broad01_Color_Tex.uasset'
+[2019.10.22-09.41.00:118][889]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/SM_Broad01_Normal_Tex853484F3450F8054AAF87ABC4D081F18.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/Materials/SM_Broad01_Normal_Tex.uasset'
+[2019.10.22-09.41.00:831][889]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/SM_Broad01_Subsurface_TexE9BC519346D5D79A93E798A5F3E94494.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/Materials/SM_Broad01_Subsurface_Tex.uasset'
+[2019.10.22-09.41.01:085][889]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2019.10.22-09.41.01:110][889]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2019.10.22-09.41.01:138][889]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2019.10.22-09.41.01:175][889]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2019.10.22-09.41.01:203][889]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2019.10.22-09.41.08:402][175]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-09.41.08:685][184]LogActorFactory: Actor Factory created SM_Broad01
+[2019.10.22-09.41.09:313][200]LogActorFactory: Actor Factory created SM_Broad01
+[2019.10.22-09.41.12:076][322]LogEditorViewport: Clicking on Actor (CTRL LMB): InstancedFoliageActor (InstancedFoliageActor)
+[2019.10.22-09.41.13:170][372]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Broad01)
+[2019.10.22-09.41.32:115][860]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.22-09.41.33:670][916]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Broad01)
+[2019.10.22-09.41.34:729][956]Cmd: DELETE
+[2019.10.22-09.41.34:729][956]Cmd: ACTOR DELETE
+[2019.10.22-09.41.34:740][956]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.10.22-09.41.34:766][956]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2019.10.22-09.41.34:766][956]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2019.10.22-09.41.36:064][  3]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-09.41.56:897][712]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2019.10.22-09.41.58:245][712]LogSlate: Window 'Delete Assets' being destroyed
+[2019.10.22-09.41.58:255][712]LogUObjectGlobals: Force Deleting 3 Package(s):
+	Asset Name: /Game/Vegetation/Trees/Materials/SM_Broad01_Subsurface_Tex.SM_Broad01_Subsurface_Tex
+	Asset Name: /Game/Vegetation/Trees/Materials/SM_Broad01_Color_Tex.SM_Broad01_Color_Tex
+	Asset Name: /Game/Vegetation/Trees/Materials/SM_Broad01_Normal_Tex.SM_Broad01_Normal_Tex
+[2019.10.22-09.42.01:610][712]LogMaterial: Display: Missing cached shader map for material SM_Broad01_Leaf_Mat, compiling. 
+[2019.10.22-09.42.01:610][712]LogMaterial: Warning: /Game/Vegetation/Trees/SM_Broad01_Leaf_Mat.SM_Broad01_Leaf_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.10.22-09.42.01:610][712]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.10.22-09.42.01:614][712]LogMaterial: Display: Missing cached shader map for material SM_Broad01_Leaf_Mat, compiling. 
+[2019.10.22-09.42.01:614][712]LogMaterial: Warning: /Game/Vegetation/Trees/SM_Broad01_Leaf_Mat.SM_Broad01_Leaf_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.10.22-09.42.01:614][712]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.10.22-09.42.01:617][712]LogMaterial: Display: Missing cached shader map for material SM_Broad01_Leaf_Mat, compiling. 
+[2019.10.22-09.42.01:617][712]LogMaterial: Warning: /Game/Vegetation/Trees/SM_Broad01_Leaf_Mat.SM_Broad01_Leaf_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.10.22-09.42.01:617][712]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.10.22-09.42.01:621][712]LogMaterial: Display: Missing cached shader map for material SM_Broad01_Branch_Mat, compiling. 
+[2019.10.22-09.42.01:621][712]LogMaterial: Warning: /Game/Vegetation/Trees/SM_Broad01_Branch_Mat.SM_Broad01_Branch_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.10.22-09.42.01:621][712]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.10.22-09.42.01:624][712]LogMaterial: Display: Missing cached shader map for material SM_Broad01_Branch_Mat, compiling. 
+[2019.10.22-09.42.01:625][712]LogMaterial: Warning: /Game/Vegetation/Trees/SM_Broad01_Branch_Mat.SM_Broad01_Branch_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.10.22-09.42.01:625][712]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.10.22-09.42.01:628][712]LogMaterial: Display: Missing cached shader map for material SM_Broad01_Branch_Mat, compiling. 
+[2019.10.22-09.42.01:628][712]LogMaterial: Warning: /Game/Vegetation/Trees/SM_Broad01_Branch_Mat.SM_Broad01_Branch_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.10.22-09.42.01:628][712]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.10.22-09.42.01:954][712]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2019.10.22-09.42.01:981][712]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2019.10.22-09.42.02:006][712]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2019.10.22-09.42.02:034][712]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2019.10.22-09.42.02:067][712]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2019.10.22-09.42.03:991][770]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Vegetation/Trees/Materials/MI_Broad01.MI_Broad01
+[2019.10.22-09.42.17:342][243]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2019.10.22-09.42.17:349][243]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.10.22-09.42.17:689][243]TextureStreamingBuild: Display: Compiling optional shaders took 0.347 seconds.
+[2019.10.22-09.42.17:724][243]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2019.10.22-09.42.17:739][243]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/MI_Broad01B4C1835F41F587AC27C5A08A439C0E41.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/Materials/MI_Broad01.uasset'
+[2019.10.22-09.42.18:488][273]LogSlate: Window 'MI_Broad01' being destroyed
+[2019.10.22-09.42.24:830][494]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2019.10.22-09.42.26:139][494]LogSlate: Window 'Delete Assets' being destroyed
+[2019.10.22-09.42.26:147][494]LogUObjectGlobals: Force Deleting 2 Package(s):
+	Asset Name: /Game/Vegetation/Trees/SM_Broad01_Branch_Mat.SM_Broad01_Branch_Mat
+	Asset Name: /Game/Vegetation/Trees/SM_Broad01_Leaf_Mat.SM_Broad01_Leaf_Mat
+[2019.10.22-09.42.26:593][494]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2019.10.22-09.42.35:730][783]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Vegetation/Trees/SM_Broad01.SM_Broad01
+[2019.10.22-09.42.48:427][161]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-09.42.50:481][215]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/SM_Broad014AEB05214BC6365F53C1D59287088E39.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/SM_Broad01.uasset'
+[2019.10.22-09.42.51:029][235]LogSlate: Window 'SM_Broad01' being destroyed
+[2019.10.22-09.43.02:845][731]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-09.43.02:926][733]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2019.10.22-09.43.03:790][733]LogSlate: Window 'Save Content' being destroyed
+[2019.10.22-09.43.03:857][733]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2019.10.22-09.43.04:565][733]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/IslandB6E30A5D4FBA0E27E04A84835E62EF8A.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Island.umap'
+[2019.10.22-09.43.04:597][733]LogFileHelpers: Saving map 'Island' took 0.768
+[2019.10.22-09.43.04:866][733]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/SM_Broad01_Color_TexF80CE1684BE85E2541479595DC193A74.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/Materials/Textures/SM_Broad01_Color_Tex.uasset'
+[2019.10.22-09.43.05:076][733]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/SM_Broad01_Normal_Tex799F5D5346C64B986E9E918291FCC075.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/Materials/Textures/SM_Broad01_Normal_Tex.uasset'
+[2019.10.22-09.43.05:121][733]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/SM_Broad01_Subsurface_Tex96D4AC2D4ADC1BFE25FCDEA2203370A5.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/Materials/Textures/SM_Broad01_Subsurface_Tex.uasset'
+[2019.10.22-09.43.16:998][252]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-09.43.26:821][677]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-09.43.38:024][158]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-09.43.55:135][917]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-09.44.04:885][309]LogRenderer: Reallocating scene render targets to support 1160x900 Format 10 NumSamples 1 (Frame:49).
+[2019.10.22-09.44.04:885][309]LogSlate: Took 0.005717 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.10.22-09.44.08:953][480]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-09.44.13:764][656]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-09.44.15:076][709]LogSlate: Window 'SM_Mixed02' being destroyed
+[2019.10.22-09.44.18:085][832]LogActorFactory: Actor Factory created SM_Broad01
+[2019.10.22-09.44.18:513][843]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.22-09.45.08:722][482]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-09.45.23:758][345]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-09.45.36:337][ 67]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-09.45.36:431][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2019.10.22-09.45.38:095][ 71]LogSlate: Window 'Save Content' being destroyed
+[2019.10.22-09.45.38:160][ 71]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2019.10.22-09.45.38:848][ 71]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Island5D48D0CB415C9E811FD81995511A2A8D.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Island.umap'
+[2019.10.22-09.45.38:879][ 71]LogFileHelpers: Saving map 'Island' took 0.746
+[2019.10.22-09.51.47:045][277]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.22-09.52.10:971][680]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-09.52.11:376][702]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2019.10.22-09.53.02:672][ 79]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-09.53.06:613][153]LogFactory: FactoryCreateFile: StaticMesh with ReimportSpeedTreeFactory (0 0 ../../../../../../Users/user/Dropbox/SpeedTrees/ExportToUE4/Sample_Tree.st)
+[2019.10.22-09.53.10:044][153]LogSlate: Window 'SpeedTree Options' being destroyed
+[2019.10.22-09.53.10:901][153]LogTexture: Display: Building textures: Sample_Tree_Color_Tex (AutoDXT, 4096X4096)
+[2019.10.22-09.53.16:213][153]LogTexture: Display: Building textures: Sample_Tree_Normal_Tex (AutoDXT, 4096X4096)
+[2019.10.22-09.53.20:660][153]LogTexture: Display: Building textures: Sample_Tree_Subsurface_Tex (AutoDXT, 4096X4096)
+[2019.10.22-09.53.21:175][153]LogMaterial: Display: Missing cached shader map for material Sample_Tree_Branch_Mat, compiling. 
+[2019.10.22-09.53.21:246][153]LogTexture: Display: Building textures: Sample_Tree_Color_Tex (AutoDXT, 4096X4096)
+[2019.10.22-09.53.27:182][153]LogTexture: Display: Building textures: Sample_Tree_Color_Tex (AutoDXT, 4096X4096)
+[2019.10.22-09.53.31:959][153]LogTexture: Display: Building textures: Sample_Tree_Normal_Tex (AutoDXT, 4096X4096)
+[2019.10.22-09.53.36:767][153]LogTexture: Display: Building textures: Sample_Tree_Normal_Tex (AutoDXT, 4096X4096)
+[2019.10.22-09.53.41:231][153]LogTexture: Display: Building textures: Sample_Tree_Subsurface_Tex (AutoDXT, 4096X4096)
+[2019.10.22-09.53.41:725][153]LogMaterial: Display: Missing cached shader map for material Sample_Tree_Leaf_Mat, compiling. 
+[2019.10.22-09.53.41:853][153]LogStaticMesh: Building static mesh Sample_Tree...
+[2019.10.22-09.53.42:149][153]LogStaticMesh: Built static mesh [0.30s] /Game/Vegetation/Trees/Sample_Tree.Sample_Tree
+[2019.10.22-09.53.48:077][153]LogMeshUtilities: Finished distance field build in 5.8s - 64x64x64 distance field, 13031 triangles, Range [-0.0, 1.0], Sample_Tree
+[2019.10.22-09.53.48:077][153]LogStaticMesh: Display: Main thread blocked for 5.812s for async distance field build of Sample_Tree to complete!  This can happen if the mesh is rebuilt excessively.
+[2019.10.22-09.53.59:795][577]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Sample_Tree_Color_TexFA2625674BB9DB2D408B5D937F244886.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/Materials/Textures/Sample_Tree_Color_Tex.uasset'
+[2019.10.22-09.54.02:708][577]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Sample_Tree_Normal_Tex47C8B5714B60961E092665AC9A7840D1.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/Materials/Textures/Sample_Tree_Normal_Tex.uasset'
+[2019.10.22-09.54.03:358][577]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Sample_Tree_Subsurface_Tex8C2C15BD4DF400FF194396BEB139A827.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/Materials/Textures/Sample_Tree_Subsurface_Tex.uasset'
+[2019.10.22-09.54.03:595][577]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2019.10.22-09.54.03:622][577]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2019.10.22-09.54.03:646][577]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2019.10.22-09.54.03:680][577]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2019.10.22-09.54.03:703][577]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2019.10.22-09.54.06:715][699]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2019.10.22-09.54.08:063][699]LogSlate: Window 'Delete Assets' being destroyed
+[2019.10.22-09.54.08:071][699]LogUObjectGlobals: Force Deleting 2 Package(s):
+	Asset Name: /Game/Vegetation/Trees/Sample_Tree_Leaf_Mat.Sample_Tree_Leaf_Mat
+	Asset Name: /Game/Vegetation/Trees/Sample_Tree_Branch_Mat.Sample_Tree_Branch_Mat
+[2019.10.22-09.54.08:474][699]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2019.10.22-09.54.20:439][220]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Vegetation/Trees/Materials/MI_SampleTree.MI_SampleTree
+[2019.10.22-09.54.20:592][220]LogRenderer: Reallocating scene render targets to support 1160x920 Format 10 NumSamples 1 (Frame:1).
+[2019.10.22-09.54.25:366][451]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (37.171 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.10.22-09.54.32:055][802]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2019.10.22-09.54.32:061][802]TextureStreamingBuild: Display: Compiling optional shaders took 0.006 seconds.
+[2019.10.22-09.54.32:085][802]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2019.10.22-09.54.32:104][802]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/MI_SampleTree5E1DFBD34467A44917758A96B7C2CF93.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/Materials/MI_SampleTree.uasset'
+[2019.10.22-09.54.32:652][831]LogSlate: Window 'MI_SampleTree' being destroyed
+[2019.10.22-09.54.34:925][936]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Vegetation/Trees/Sample_Tree.Sample_Tree
+[2019.10.22-09.54.47:242][448]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-09.54.47:401][451]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Sample_TreeDC2C12B6443494A25D4EE7989B9965B4.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/Sample_Tree.uasset'
+[2019.10.22-09.54.48:058][482]LogSlate: Window 'Sample_Tree' being destroyed
+[2019.10.22-09.54.53:234][712]LogActorFactory: Actor Factory created Sample_Tree
+[2019.10.22-09.54.53:710][733]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.22-09.54.55:568][810]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-09.56.07:647][768]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-09.56.11:401][979]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-09.56.20:295][409]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-09.56.22:315][506]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2019.10.22-09.56.23:163][506]LogSlate: Window 'Save Content' being destroyed
+[2019.10.22-09.56.23:235][506]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2019.10.22-09.56.23:964][506]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Island02A304D8458DA9FD7A51ED92E23C60B3.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Island.umap'
+[2019.10.22-09.56.23:996][506]LogFileHelpers: Saving map 'Island' took 0.788
+[2019.10.22-09.56.31:774][910]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Vegetation/Trees/SM_Broad01.SM_Broad01
+[2019.10.22-09.56.39:933][280]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-09.56.39:992][283]LogSlate: Window 'SM_Broad01' being destroyed
+[2019.10.22-09.56.40:002][283]LogSlate: Window 'SM_Broad01' being destroyed
+[2019.10.22-09.58.03:914][605]LogHttp: Warning: 000001966A571800: request failed, libcurl error: 56 (Failure when receiving data from the peer)
+[2019.10.22-09.58.03:914][605]LogHttp: Warning: 000001966A571800: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x1963bcfff70 [can pipeline])
+[2019.10.22-09.58.03:914][605]LogHttp: Warning: 000001966A571800: libcurl info message cache 1 (Re-using existing connection! (#11) with host datarouter.ol.epicgames.com)
+[2019.10.22-09.58.03:914][605]LogHttp: Warning: 000001966A571800: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.70.110.70) port 443 (#11))
+[2019.10.22-09.58.03:914][605]LogHttp: Warning: 000001966A571800: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.10.22-09.58.03:914][605]LogHttp: Warning: 000001966A571800: libcurl info message cache 4 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2019.10.22-09.58.03:914][605]LogHttp: Warning: 000001966A571800: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.10.22-09.58.03:914][605]LogHttp: Warning: 000001966A571800: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.10.22-09.58.03:914][605]LogHttp: Warning: 000001966A571800: libcurl info message cache 7 (Closing connection 11)
+[2019.10.22-09.58.04:247][606]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B265FA3CC-49FD-2F25-D504-58B42511FC6B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=9a0565c246953105c1a0e8b52dd4ae60%7C9aea065f86fd4981a4ef02aa3c13de84%7Ce1a5093f-7a8b-4cc5-af38-eb387103d9a8&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.10.22-09.58.31:194][812]LogEditorFactories: Performing atomic reimport of [C:/Users/user/Dropbox/SpeedTrees/ExportToUE4/SM_Broad01.st]
+[2019.10.22-09.58.31:203][812]LogFactory: FactoryCreateFile: StaticMesh with ReimportSpeedTreeFactory (0 0 C:/Users/user/Dropbox/SpeedTrees/ExportToUE4/SM_Broad01.st)
+[2019.10.22-09.58.31:968][812]LogTexture: Display: Building textures: SM_Broad01_Color_Tex (AutoDXT, 4096X4096)
+[2019.10.22-09.58.36:467][812]LogTexture: Display: Building textures: SM_Broad01_Normal_Tex (AutoDXT, 4096X4096)
+[2019.10.22-09.58.40:593][812]LogTexture: Display: Building textures: SM_Broad01_Subsurface_Tex (AutoDXT, 4096X4096)
+[2019.10.22-09.58.41:123][812]LogMaterial: Display: Missing cached shader map for material SM_Broad01_Branch_Mat, compiling. 
+[2019.10.22-09.58.41:417][812]LogStaticMesh: Building static mesh SM_Broad01...
+[2019.10.22-09.58.41:783][812]LogStaticMesh: Built static mesh [0.37s] /Game/Vegetation/Trees/SM_Broad01.SM_Broad01
+[2019.10.22-09.58.41:908][812]LogMaterial: Warning: Material /Game/Vegetation/Trees/SM_Broad01_Branch_Mat.SM_Broad01_Branch_Mat needed to have new flag set bUsedWithInstancedStaticMeshes !
+[2019.10.22-09.58.41:916][812]LogMaterial: Display: Missing cached shader map for material SM_Broad01_Branch_Mat, compiling. 
+[2019.10.22-09.58.46:036][812]LogMeshUtilities: Finished distance field build in 4.1s - 64x64x64 distance field, 15679 triangles, Range [-0.1, 1.0], SM_Broad01
+[2019.10.22-09.58.46:036][812]LogStaticMesh: Display: Main thread blocked for 4.068s for async distance field build of SM_Broad01 to complete!  This can happen if the mesh is rebuilt excessively.
+[2019.10.22-09.58.46:100][812]LogEditorFactories: -- imported successfully
+[2019.10.22-09.59.18:286][557]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-09.59.26:542][910]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Vegetation/Trees/Materials/Textures/SM_Broad01_Color_Tex.SM_Broad01_Color_Tex
+[2019.10.22-09.59.26:551][910]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.10.22-09.59.30:288][ 78]LogSlate: Window 'SM_Broad01_Color_Tex' being destroyed
+[2019.10.22-09.59.30:298][ 78]LogSlate: Window 'SM_Broad01_Color_Tex' being destroyed
+[2019.10.22-09.59.32:800][200]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Vegetation/Trees/Materials/Textures/SM_Broad01_Subsurface_Tex.SM_Broad01_Subsurface_Tex
+[2019.10.22-09.59.35:666][329]LogSlate: Window 'SM_Broad01_Subsurface_Tex' being destroyed
+[2019.10.22-09.59.35:676][329]LogSlate: Window 'SM_Broad01_Subsurface_Tex' being destroyed
+[2019.10.22-09.59.53:214][107]LogAssetEditorManager: Opening Asset editor for Texture2D /Game/Vegetation/Trees/SM_Broad01_Color_Tex.SM_Broad01_Color_Tex
+[2019.10.22-09.59.55:899][224]LogSlate: Window 'SM_Broad01_Color_Tex' being destroyed
+[2019.10.22-09.59.55:907][224]LogSlate: Window 'SM_Broad01_Color_Tex' being destroyed
+[2019.10.22-10.00.00:250][418]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2019.10.22-10.00.01:607][418]LogSlate: Window 'Delete Assets' being destroyed
+[2019.10.22-10.00.01:617][418]LogUObjectGlobals: Force Deleting 3 Package(s):
+	Asset Name: /Game/Vegetation/Trees/Materials/Textures/SM_Broad01_Subsurface_Tex.SM_Broad01_Subsurface_Tex
+	Asset Name: /Game/Vegetation/Trees/Materials/Textures/SM_Broad01_Color_Tex.SM_Broad01_Color_Tex
+	Asset Name: /Game/Vegetation/Trees/Materials/Textures/SM_Broad01_Normal_Tex.SM_Broad01_Normal_Tex
+[2019.10.22-10.00.02:070][418]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2019.10.22-10.00.02:096][418]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2019.10.22-10.00.02:120][418]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2019.10.22-10.00.02:146][418]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2019.10.22-10.00.02:171][418]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2019.10.22-10.00.12:323][721]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/SM_Broad01_Color_TexD785E14B461B73928ED3CBB516F6B478.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/Materials/Textures/SM_Broad01_Color_Tex.uasset'
+[2019.10.22-10.00.14:539][721]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/SM_Broad01_Normal_TexF7A7DDDB421DD61753E402B5D8864098.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/Materials/Textures/SM_Broad01_Normal_Tex.uasset'
+[2019.10.22-10.00.15:246][721]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/SM_Broad01_Subsurface_TexA1358E034D092A1D1F3A63912DF733C7.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/Materials/Textures/SM_Broad01_Subsurface_Tex.uasset'
+[2019.10.22-10.00.15:484][721]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2019.10.22-10.00.15:511][721]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2019.10.22-10.00.15:537][721]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2019.10.22-10.00.15:572][721]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2019.10.22-10.00.15:596][721]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2019.10.22-10.00.15:919][725]LogHttp: Warning: 000001966AB16480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2019.10.22-10.00.15:919][725]LogHttp: Warning: 000001966AB16480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2019.10.22-10.00.15:919][725]LogHttp: Warning: 000001966AB16480: libcurl info message cache 1 (Closing connection 12)
+[2019.10.22-10.00.16:002][726]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B265FA3CC-49FD-2F25-D504-58B42511FC6B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=9a0565c246953105c1a0e8b52dd4ae60%7C9aea065f86fd4981a4ef02aa3c13de84%7Ce1a5093f-7a8b-4cc5-af38-eb387103d9a8&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.10.22-10.00.17:044][763]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2019.10.22-10.00.18:261][763]LogSlate: Window 'Delete Assets' being destroyed
+[2019.10.22-10.00.18:270][763]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Vegetation/Trees/SM_Broad01_Branch_Mat.SM_Broad01_Branch_Mat
+[2019.10.22-10.00.18:558][763]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2019.10.22-10.00.23:844][984]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Vegetation/Trees/Materials/MI_Broad01.MI_Broad01
+[2019.10.22-10.00.37:800][627]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2019.10.22-10.00.37:806][627]TextureStreamingBuild: Display: Compiling optional shaders took 0.006 seconds.
+[2019.10.22-10.00.37:831][627]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2019.10.22-10.00.37:855][627]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/MI_Broad01DA2449B14A2E2CD1F52F58B2587EC0F8.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/Materials/MI_Broad01.uasset'
+[2019.10.22-10.00.38:966][680]LogSlate: Window 'MI_Broad01' being destroyed
+[2019.10.22-10.00.43:975][896]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Vegetation/Trees/SM_Broad01.SM_Broad01
+[2019.10.22-10.00.52:969][212]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/SM_Broad0135CF83294ADA390D95F425BDF268184B.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/SM_Broad01.uasset'
+[2019.10.22-10.00.54:251][270]LogSlate: Window 'SM_Broad01' being destroyed
+[2019.10.22-10.02.30:635][683]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.22-10.06.22:660][233]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2019.10.22-10.06.23:355][233]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Island_Auto15700961F45E3A20CA3B68B816E5079DD.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Autosaves/Game/Island_Auto1.umap'
+[2019.10.22-10.06.23:358][233]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Island' took 0.725
+[2019.10.22-10.06.23:358][233]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.725
+[2019.10.22-15.05.49:835][895]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.22-15.05.58:554][311]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2019.10.22-15.05.59:698][311]LogSlate: Window 'Delete Assets' being destroyed
+[2019.10.22-15.05.59:709][311]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Vegetation/Trees/SM_Broad01.SM_Broad01
+[2019.10.22-15.05.59:973][311]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2019.10.22-15.06.00:002][311]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2019.10.22-15.06.00:029][311]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2019.10.22-15.06.11:749][896]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2019.10.22-15.06.13:610][896]LogSlate: Window 'Delete Assets' being destroyed
+[2019.10.22-15.06.13:619][896]LogUObjectGlobals: Force Deleting 3 Package(s):
+	Asset Name: /Game/Vegetation/Trees/Materials/Textures/SM_Broad01_Color_Tex.SM_Broad01_Color_Tex
+	Asset Name: /Game/Vegetation/Trees/Materials/Textures/SM_Broad01_Normal_Tex.SM_Broad01_Normal_Tex
+	Asset Name: /Game/Vegetation/Trees/Materials/Textures/SM_Broad01_Subsurface_Tex.SM_Broad01_Subsurface_Tex
+[2019.10.22-15.06.14:079][896]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2019.10.22-15.06.14:105][896]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2019.10.22-15.06.14:130][896]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2019.10.22-15.06.14:164][896]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2019.10.22-15.06.14:190][896]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2019.10.22-15.06.39:859][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2019.10.22-15.06.40:670][ 37]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Island_Auto299D0D63C4F21485BE7B1DF8793ECEDC1.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Autosaves/Game/Island_Auto2.umap'
+[2019.10.22-15.06.40:676][ 37]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Island' took 0.840
+[2019.10.22-15.06.40:676][ 37]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.840
+[2019.10.22-15.06.40:682][ 37]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Vegetation/Trees/Materials/MI_Broad01] ([1] browsable assets)...
+[2019.10.22-15.06.40:694][ 37]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Vegetation/Trees/Materials/MI_Broad01.MI_Broad01]
+[2019.10.22-15.06.40:694][ 37]OBJ SavePackage: Finished generating thumbnails for package [/Game/Vegetation/Trees/Materials/MI_Broad01]
+[2019.10.22-15.06.40:718][ 37]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/MI_Broad01_Auto280809B0F48EDCF9252F344BECEFE1B45.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Autosaves/Game/Vegetation/Trees/Materials/MI_Broad01_Auto2.uasset'
+[2019.10.22-15.06.40:719][ 37]LogFileHelpers: Auto-saving content packages took 0.038
+[2019.10.22-15.08.53:112][143]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-15.08.53:310][143]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2019.10.22-15.08.54:234][143]LogSlate: Window 'Save Content' being destroyed
+[2019.10.22-15.08.54:311][143]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2019.10.22-15.08.55:018][143]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/IslandE79909BD4C0295A60B10119D061A6C48.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Island.umap'
+[2019.10.22-15.08.55:051][143]LogFileHelpers: Saving map 'Island' took 0.769
+[2019.10.22-15.08.55:066][143]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/MI_Broad01B3F85A0E40940E2A1069ECBDA193554B.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/Materials/MI_Broad01.uasset'
+[2019.10.22-15.09.45:674][377]LogFactory: FactoryCreateFile: StaticMesh with ReimportSpeedTreeFactory (0 0 ../../../../../../Users/user/Dropbox/SpeedTrees/ExportToUE4/SM_Broad01.st)
+[2019.10.22-15.09.49:136][377]LogSlate: Window 'SpeedTree Options' being destroyed
+[2019.10.22-15.09.49:930][377]LogTexture: Display: Building textures: T_Broad_Color_Tex (AutoDXT, 4096X4096)
+[2019.10.22-15.09.54:762][377]LogTexture: Display: Building textures: T_Broad_Normal_Tex (AutoDXT, 4096X4096)
+[2019.10.22-15.09.59:113][377]LogTexture: Display: Building textures: T_Broad_Subsurface_Tex (AutoDXT, 4096X4096)
+[2019.10.22-15.09.59:587][377]LogMaterial: Display: Missing cached shader map for material T_Broad_Branch_Mat, compiling. 
+[2019.10.22-15.09.59:937][377]LogStaticMesh: Building static mesh SM_Broad01...
+[2019.10.22-15.10.00:338][377]LogStaticMesh: Built static mesh [0.40s] /Game/Vegetation/Trees/SM_Broad01.SM_Broad01
+[2019.10.22-15.10.04:585][377]LogMeshUtilities: Finished distance field build in 4.1s - 64x64x64 distance field, 16231 triangles, Range [-0.1, 1.0], SM_Broad01
+[2019.10.22-15.10.04:585][377]LogStaticMesh: Display: Main thread blocked for 4.122s for async distance field build of SM_Broad01 to complete!  This can happen if the mesh is rebuilt excessively.
+[2019.10.22-15.10.04:652][377]LogFactory: FactoryCreateFile: StaticMesh with ReimportSpeedTreeFactory (0 0 ../../../../../../Users/user/Dropbox/SpeedTrees/ExportToUE4/SM_Broad02.st)
+[2019.10.22-15.10.07:048][377]LogSlate: Window 'SpeedTree Options' being destroyed
+[2019.10.22-15.10.07:224][377]LogStaticMesh: Building static mesh SM_Broad02...
+[2019.10.22-15.10.07:512][377]LogStaticMesh: Built static mesh [0.29s] /Game/Vegetation/Trees/SM_Broad02.SM_Broad02
+[2019.10.22-15.10.11:567][377]LogMeshUtilities: Finished distance field build in 3.9s - 64x64x64 distance field, 15946 triangles, Range [-0.1, 1.0], SM_Broad02
+[2019.10.22-15.10.11:567][377]LogStaticMesh: Display: Main thread blocked for 3.967s for async distance field build of SM_Broad02 to complete!  This can happen if the mesh is rebuilt excessively.
+[2019.10.22-15.10.11:620][377]LogFactory: FactoryCreateFile: StaticMesh with ReimportSpeedTreeFactory (0 0 ../../../../../../Users/user/Dropbox/SpeedTrees/ExportToUE4/SM_Broad03.st)
+[2019.10.22-15.10.12:840][377]LogSlate: Window 'SpeedTree Options' being destroyed
+[2019.10.22-15.10.13:011][377]LogStaticMesh: Building static mesh SM_Broad03...
+[2019.10.22-15.10.13:272][377]LogStaticMesh: Built static mesh [0.26s] /Game/Vegetation/Trees/SM_Broad03.SM_Broad03
+[2019.10.22-15.10.17:215][377]LogMeshUtilities: Finished distance field build in 3.8s - 64x64x64 distance field, 15535 triangles, Range [-0.1, 1.0], SM_Broad03
+[2019.10.22-15.10.17:216][377]LogStaticMesh: Display: Main thread blocked for 3.858s for async distance field build of SM_Broad03 to complete!  This can happen if the mesh is rebuilt excessively.
+[2019.10.22-15.10.21:302][497]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2019.10.22-15.10.22:219][497]LogSlate: Window 'Delete Assets' being destroyed
+[2019.10.22-15.10.22:228][497]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Vegetation/Trees/T_Broad_Branch_Mat.T_Broad_Branch_Mat
+[2019.10.22-15.10.22:514][497]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2019.10.22-15.10.30:869][734]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/T_Broad_Color_Tex6814ABB8458559CA274978AE4126956E.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/Materials/Textures/T_Broad_Color_Tex.uasset'
+[2019.10.22-15.10.33:183][734]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/T_Broad_Normal_Tex9D25E0AB461D0CAAEFEE9D9AD7668081.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/Materials/Textures/T_Broad_Normal_Tex.uasset'
+[2019.10.22-15.10.33:847][734]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/T_Broad_Subsurface_Tex65DC7BB3485565EF354F798B324777E7.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/Materials/Textures/T_Broad_Subsurface_Tex.uasset'
+[2019.10.22-15.10.34:115][734]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2019.10.22-15.10.34:140][734]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2019.10.22-15.10.34:165][734]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2019.10.22-15.10.34:200][734]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2019.10.22-15.10.34:224][734]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2019.10.22-15.11.05:088][592]LogSlate: Window 'SM_Broad03' being destroyed
+[2019.10.22-15.11.05:125][592]LogSlate: Window 'SM_Broad03' being destroyed
+[2019.10.22-15.11.07:839][670]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Vegetation/Trees/Materials/MI_Broad01.MI_Broad01
+[2019.10.22-15.11.23:473][217]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2019.10.22-15.11.23:479][217]TextureStreamingBuild: Display: Compiling optional shaders took 0.006 seconds.
+[2019.10.22-15.11.23:505][217]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2019.10.22-15.11.23:526][217]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/MI_Broad0128E3144943BFAAE81B06D8AC37A5C934.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/Materials/MI_Broad01.uasset'
+[2019.10.22-15.11.24:049][236]LogSlate: Window 'MI_Broad01' being destroyed
+[2019.10.22-15.11.24:842][263]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2019.10.22-15.11.25:979][263]LogSlate: Window 'Save Content' being destroyed
+[2019.10.22-15.11.26:121][263]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/SM_Broad0153649BE8478F9FEB2FCDE0A640844DC9.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/SM_Broad01.uasset'
+[2019.10.22-15.11.26:244][263]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/SM_Broad025653BB46443F93090CB37A86169FD28C.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/SM_Broad02.uasset'
+[2019.10.22-15.11.26:360][263]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/SM_Broad038CFC596C42A7C7C5C852839E4B2681F4.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/SM_Broad03.uasset'
+[2019.10.22-15.11.31:247][470]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-15.11.33:424][563]LogActorFactory: Actor Factory created SM_Broad01
+[2019.10.22-15.11.33:425][563]LogActorFactory: Actor Factory created SM_Broad02
+[2019.10.22-15.11.33:425][563]LogActorFactory: Actor Factory created SM_Broad03
+[2019.10.22-15.11.34:049][585]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.22-15.11.44:054][ 58]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-15.11.55:022][633]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-15.11.58:165][808]Cmd: TRANSACTION UNDO
+[2019.10.22-15.11.58:165][808]LogEditorTransaction: Undo Foliage Editing
+[2019.10.22-15.12.03:860][ 81]LogRenderer: Reallocating scene render targets to support 1676x920 Format 10 NumSamples 1 (Frame:50940).
+[2019.10.22-15.12.03:916][ 82]LogRenderer: Reallocating scene render targets to support 1920x1040 Format 10 NumSamples 1 (Frame:50942).
+[2019.10.22-15.12.03:917][ 82]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.22-15.13.32:253][ 63]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-15.13.33:821][117]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-15.13.33:930][121]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2019.10.22-15.13.34:724][121]LogSlate: Window 'Save Content' being destroyed
+[2019.10.22-15.13.34:799][121]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2019.10.22-15.13.35:478][121]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/IslandB9F5583A4050EA1F500CB7A637F6CE1A.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Island.umap'
+[2019.10.22-15.13.35:511][121]LogFileHelpers: Saving map 'Island' took 0.739
+[2019.10.22-15.19.46:479][245]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.10.22-15.19.49:229][253]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2019.10.22-15.25.35:380][385]LogFactory: FactoryCreateFile: StaticMesh with ReimportSpeedTreeFactory (0 0 ../../../../../../Users/user/Dropbox/SpeedTrees/ExportToUE4/SM_Broad01_Red.st)
+[2019.10.22-15.25.38:673][385]LogSlate: Window 'SpeedTree Options' being destroyed
+[2019.10.22-15.25.39:464][385]LogTexture: Display: Building textures: T_Broad_Red_Color_Tex (AutoDXT, 4096X4096)
+[2019.10.22-15.25.44:528][385]LogTexture: Display: Building textures: T_Broad_Red_Normal_Tex (AutoDXT, 4096X4096)
+[2019.10.22-15.25.49:027][385]LogTexture: Display: Building textures: T_Broad_Red_Subsurface_Tex (AutoDXT, 4096X4096)
+[2019.10.22-15.25.49:499][385]LogMaterial: Display: Missing cached shader map for material T_Broad_Red_Branch_Mat, compiling. 
+[2019.10.22-15.25.49:703][385]LogStaticMesh: Building static mesh SM_Broad01_Red...
+[2019.10.22-15.25.50:117][385]LogStaticMesh: Built static mesh [0.41s] /Game/Vegetation/Trees/SM_Broad01_Red.SM_Broad01_Red
+[2019.10.22-15.25.54:422][385]LogMeshUtilities: Finished distance field build in 4.2s - 64x64x64 distance field, 16231 triangles, Range [-0.1, 1.0], SM_Broad01_Red
+[2019.10.22-15.25.54:422][385]LogStaticMesh: Display: Main thread blocked for 4.176s for async distance field build of SM_Broad01_Red to complete!  This can happen if the mesh is rebuilt excessively.
+[2019.10.22-15.25.54:490][385]LogFactory: FactoryCreateFile: StaticMesh with ReimportSpeedTreeFactory (0 0 ../../../../../../Users/user/Dropbox/SpeedTrees/ExportToUE4/SM_Broad02_Red.st)
+[2019.10.22-15.25.55:974][385]LogSlate: Window 'SpeedTree Options' being destroyed
+[2019.10.22-15.25.56:144][385]LogStaticMesh: Building static mesh SM_Broad02_Red...
+[2019.10.22-15.25.56:429][385]LogStaticMesh: Built static mesh [0.29s] /Game/Vegetation/Trees/SM_Broad02_Red.SM_Broad02_Red
+[2019.10.22-15.26.00:552][385]LogMeshUtilities: Finished distance field build in 4.0s - 64x64x64 distance field, 15704 triangles, Range [-0.1, 1.0], SM_Broad02_Red
+[2019.10.22-15.26.00:552][385]LogStaticMesh: Display: Main thread blocked for 4.031s for async distance field build of SM_Broad02_Red to complete!  This can happen if the mesh is rebuilt excessively.
+[2019.10.22-15.26.00:609][385]LogFactory: FactoryCreateFile: StaticMesh with ReimportSpeedTreeFactory (0 0 ../../../../../../Users/user/Dropbox/SpeedTrees/ExportToUE4/SM_Broad03_Red.st)
+[2019.10.22-15.26.01:661][385]LogSlate: Window 'SpeedTree Options' being destroyed
+[2019.10.22-15.26.01:838][385]LogStaticMesh: Building static mesh SM_Broad03_Red...
+[2019.10.22-15.26.02:095][385]LogStaticMesh: Built static mesh [0.26s] /Game/Vegetation/Trees/SM_Broad03_Red.SM_Broad03_Red
+[2019.10.22-15.26.05:962][385]LogMeshUtilities: Finished distance field build in 3.8s - 64x64x64 distance field, 15392 triangles, Range [-0.0, 1.0], SM_Broad03_Red
+[2019.10.22-15.26.05:962][385]LogStaticMesh: Display: Main thread blocked for 3.783s for async distance field build of SM_Broad03_Red to complete!  This can happen if the mesh is rebuilt excessively.
+[2019.10.22-15.26.09:184][491]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2019.10.22-15.26.09:185][491]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Island' took 0.024
+[2019.10.22-15.26.09:185][491]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Vegetation/Trees/SM_Broad01_Red] ([1] browsable assets)...
+[2019.10.22-15.26.09:196][491]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Vegetation/Trees/SM_Broad01_Red.SM_Broad01_Red]
+[2019.10.22-15.26.09:196][491]OBJ SavePackage: Finished generating thumbnails for package [/Game/Vegetation/Trees/SM_Broad01_Red]
+[2019.10.22-15.26.09:282][491]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/SM_Broad01_Red_Auto3521355E3473EFCD18E3DC794BCA297BB.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Autosaves/Game/Vegetation/Trees/SM_Broad01_Red_Auto3.uasset'
+[2019.10.22-15.26.09:283][491]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Vegetation/Trees/T_Broad_Red_Branch_Mat] ([1] browsable assets)...
+[2019.10.22-15.26.09:294][491]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Vegetation/Trees/T_Broad_Red_Branch_Mat.T_Broad_Red_Branch_Mat]
+[2019.10.22-15.26.09:294][491]OBJ SavePackage: Finished generating thumbnails for package [/Game/Vegetation/Trees/T_Broad_Red_Branch_Mat]
+[2019.10.22-15.26.09:311][491]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/T_Broad_Red_Branch_Mat_Auto35F00FD404F88B91FAFEB74906F7632E7.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Autosaves/Game/Vegetation/Trees/T_Broad_Red_Branch_Mat_Auto3.uasset'
+[2019.10.22-15.26.09:312][491]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Vegetation/Trees/T_Broad_Red_Color_Tex] ([1] browsable assets)...
+[2019.10.22-15.26.09:319][491]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Vegetation/Trees/T_Broad_Red_Color_Tex.T_Broad_Red_Color_Tex]
+[2019.10.22-15.26.09:319][491]OBJ SavePackage: Finished generating thumbnails for package [/Game/Vegetation/Trees/T_Broad_Red_Color_Tex]
+[2019.10.22-15.26.09:382][491]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/T_Broad_Red_Color_Tex_Auto37720779747193D3EE67386B053288D0A.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Autosaves/Game/Vegetation/Trees/T_Broad_Red_Color_Tex_Auto3.uasset'
+[2019.10.22-15.26.09:383][491]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Vegetation/Trees/T_Broad_Red_Normal_Tex] ([1] browsable assets)...
+[2019.10.22-15.26.09:391][491]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Vegetation/Trees/T_Broad_Red_Normal_Tex.T_Broad_Red_Normal_Tex]
+[2019.10.22-15.26.09:391][491]OBJ SavePackage: Finished generating thumbnails for package [/Game/Vegetation/Trees/T_Broad_Red_Normal_Tex]
+[2019.10.22-15.26.09:447][491]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/T_Broad_Red_Normal_Tex_Auto354C9CCD74B48B89381BA74B21D29BF79.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Autosaves/Game/Vegetation/Trees/T_Broad_Red_Normal_Tex_Auto3.uasset'
+[2019.10.22-15.26.09:448][491]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Vegetation/Trees/T_Broad_Red_Subsurface_Tex] ([1] browsable assets)...
+[2019.10.22-15.26.09:453][491]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Vegetation/Trees/T_Broad_Red_Subsurface_Tex.T_Broad_Red_Subsurface_Tex]
+[2019.10.22-15.26.09:453][491]OBJ SavePackage: Finished generating thumbnails for package [/Game/Vegetation/Trees/T_Broad_Red_Subsurface_Tex]
+[2019.10.22-15.26.09:503][491]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/T_Broad_Red_Subsurface_Tex_Auto35DA2619742ED02C1C09703949B936E85.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Autosaves/Game/Vegetation/Trees/T_Broad_Red_Subsurface_Tex_Auto3.uasset'
+[2019.10.22-15.26.09:504][491]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Vegetation/Trees/SM_Broad02_Red] ([1] browsable assets)...
+[2019.10.22-15.26.09:513][491]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Vegetation/Trees/SM_Broad02_Red.SM_Broad02_Red]
+[2019.10.22-15.26.09:513][491]OBJ SavePackage: Finished generating thumbnails for package [/Game/Vegetation/Trees/SM_Broad02_Red]
+[2019.10.22-15.26.09:616][491]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/SM_Broad02_Red_Auto3F5D105E04B0BB76D49B1B6A8C4E6E394.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Autosaves/Game/Vegetation/Trees/SM_Broad02_Red_Auto3.uasset'
+[2019.10.22-15.26.09:617][491]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Vegetation/Trees/SM_Broad03_Red] ([1] browsable assets)...
+[2019.10.22-15.26.09:626][491]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Vegetation/Trees/SM_Broad03_Red.SM_Broad03_Red]
+[2019.10.22-15.26.09:626][491]OBJ SavePackage: Finished generating thumbnails for package [/Game/Vegetation/Trees/SM_Broad03_Red]
+[2019.10.22-15.26.09:718][491]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/SM_Broad03_Red_Auto3ACE6AF6F4E11FA7B01F97EA259530B3E.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Autosaves/Game/Vegetation/Trees/SM_Broad03_Red_Auto3.uasset'
+[2019.10.22-15.26.09:719][491]LogFileHelpers: Auto-saving content packages took 0.533
+[2019.10.22-15.26.15:927][643]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/T_Broad_Red_Color_TexAAAE854440E0FA6EEF302DB6331982B3.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/Materials/Textures/T_Broad_Red_Color_Tex.uasset'
+[2019.10.22-15.26.18:213][643]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/T_Broad_Red_Normal_TexB2842EB84C2ECA188CEA81A6EA4FEA2D.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/Materials/Textures/T_Broad_Red_Normal_Tex.uasset'
+[2019.10.22-15.26.18:867][643]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/T_Broad_Red_Subsurface_TexA869C4AF4A18F1A4F881C19D39B042A7.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/Materials/Textures/T_Broad_Red_Subsurface_Tex.uasset'
+[2019.10.22-15.26.19:128][643]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2019.10.22-15.26.19:154][643]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2019.10.22-15.26.19:181][643]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2019.10.22-15.26.19:217][643]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2019.10.22-15.26.19:242][643]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2019.10.22-15.26.20:035][658]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2019.10.22-15.26.20:785][658]LogSlate: Window 'Delete Assets' being destroyed
+[2019.10.22-15.26.20:796][658]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Vegetation/Trees/T_Broad_Red_Branch_Mat.T_Broad_Red_Branch_Mat
+[2019.10.22-15.26.21:090][658]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2019.10.22-15.26.52:185][660]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/MI_BroadDF3BC26A4E6AA0E7308A40BC47EAA0AA.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/Materials/MI_Broad.uasset'
+[2019.10.22-15.26.52:759][660]LogTexture: Display: Building textures: T_Broad_Color_Tex (AutoDXT, 4096X4096)
+[2019.10.22-15.26.58:063][660]LogTexture: Display: Building textures: T_Broad_Normal_Tex (AutoDXT, 4096X4096)
+[2019.10.22-15.27.02:246][660]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/Vegetation/Trees/Materials/MI_Broad01.MI_Broad01'
+[2019.10.22-15.27.02:307][660]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2019.10.22-15.27.02:348][660]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2019.10.22-15.27.02:372][660]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2019.10.22-15.27.02:492][660]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/SM_Broad01388C7AAF4889A5DDC2CC2D8DCCF7D275.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/SM_Broad01.uasset'
+[2019.10.22-15.27.02:611][660]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/SM_Broad02C5624B414C25EE45F88871BEA6A308FF.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/SM_Broad02.uasset'
+[2019.10.22-15.27.02:729][660]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/SM_Broad03E84E4D2C47A9EDE03758D4802DD2A435.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/SM_Broad03.uasset'
+[2019.10.22-15.27.04:984][709]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2019.10.22-15.27.06:028][709]LogSlate: Window 'Save Content' being destroyed
+[2019.10.22-15.27.06:100][709]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/MI_Broad_Red012040EB4F3663E82D507AABEDDEFFC7.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/Materials/MI_Broad_Red.uasset'
+[2019.10.22-15.27.06:199][709]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/SM_Broad01_Red2704C1F041B9F8B976471995C7E78FFE.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/SM_Broad01_Red.uasset'
+[2019.10.22-15.27.06:299][709]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/SM_Broad02_Red72493FB043D27052EDE115B32638D518.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/SM_Broad02_Red.uasset'
+[2019.10.22-15.27.06:391][709]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/SM_Broad03_RedABD73C774B15EFBD2593498CA763BDD1.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/SM_Broad03_Red.uasset'
+[2019.10.22-15.27.25:419][239]LogSlate: Window 'SM_Broad03_Red' being destroyed
+[2019.10.22-15.27.25:433][239]LogSlate: Window 'SM_Broad03_Red' being destroyed
+[2019.10.22-15.27.26:483][266]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Vegetation/Trees/Materials/MI_Broad_Red.MI_Broad_Red
+[2019.10.22-15.27.42:006][952]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2019.10.22-15.27.42:015][952]TextureStreamingBuild: Display: Compiling optional shaders took 0.008 seconds.
+[2019.10.22-15.27.42:041][952]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2019.10.22-15.27.42:069][952]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/MI_Broad_Red7B14E5C6443DA67739C6A1B2A0FC5A80.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/Materials/MI_Broad_Red.uasset'
+[2019.10.22-15.27.42:591][976]LogSlate: Window 'MI_Broad_Red' being destroyed
+[2019.10.22-15.27.43:556][ 18]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2019.10.22-15.27.44:691][ 18]LogSlate: Window 'Save Content' being destroyed
+[2019.10.22-15.27.44:858][ 18]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/SM_Broad01_Red72A67E004B54263FC3F965AC25BE8342.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/SM_Broad01_Red.uasset'
+[2019.10.22-15.27.44:987][ 18]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/SM_Broad02_Red5F9EA3424B849C6D02DCCAB4829E97AD.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/SM_Broad02_Red.uasset'
+[2019.10.22-15.27.45:106][ 18]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/SM_Broad03_Red3BE6AAC546468C4932FFD493FB0CF091.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/SM_Broad03_Red.uasset'
+[2019.10.22-15.27.50:717][241]LogActorFactory: Actor Factory created SM_Broad01_Red
+[2019.10.22-15.27.50:717][241]LogActorFactory: Actor Factory created SM_Broad02_Red
+[2019.10.22-15.27.50:718][241]LogActorFactory: Actor Factory created SM_Broad03_Red
+[2019.10.22-15.27.51:523][270]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.22-15.27.54:774][412]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-15.28.09:222][174]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-15.28.19:489][702]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-15.28.28:403][110]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.22-15.28.51:644][919]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-15.28.55:773][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-15.28.55:940][130]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Vegetation/Trees/SM_Broad03_Red.SM_Broad03_Red
+[2019.10.22-15.29.03:861][478]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/SM_Broad03_Red74BFD10B466016E1AD5F14B450710AAC.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/SM_Broad03_Red.uasset'
+[2019.10.22-15.29.04:932][535]LogSlate: Window 'SM_Broad03_Red' being destroyed
+[2019.10.22-15.29.16:272][ 75]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-15.29.18:051][151]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2019.10.22-15.29.18:886][151]LogSlate: Window 'Save Content' being destroyed
+[2019.10.22-15.29.18:957][151]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2019.10.22-15.29.19:653][151]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/IslandB918E17B4EBB432CD066E4A65ECC798E.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Island.umap'
+[2019.10.22-15.29.19:686][151]LogFileHelpers: Saving map 'Island' took 0.755
+[2019.10.22-15.29.50:197][898]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-15.29.50:376][907]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Vegetation/Trees/Materials/MI_Broad_Red.MI_Broad_Red
+[2019.10.22-15.30.03:356][660]LogMaterial: Display: Missing cached shader map for material MM_Foliage, compiling. 
+[2019.10.22-15.30.16:892][299]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2019.10.22-15.30.16:896][299]LogMaterial: Display: Missing cached shader map for material DebugViewMode MaterialTexCoordScale, compiling. 
+[2019.10.22-15.30.17:124][299]TextureStreamingBuild: Display: Compiling optional shaders took 0.231 seconds.
+[2019.10.22-15.30.17:155][299]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2019.10.22-15.30.17:175][299]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/MI_Broad_Red73A7C6114143817F67C30290F0E45A4D.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/Materials/MI_Broad_Red.uasset'
+[2019.10.22-15.30.39:975][550]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-15.30.47:207][930]LogMaterial: Display: Missing cached shader map for material MM_Foliage, compiling. 
+[2019.10.22-15.31.07:459][ 68]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-15.31.39:046][761]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-15.31.39:179][763]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2019.10.22-15.31.39:185][763]TextureStreamingBuild: Display: Compiling optional shaders took 0.006 seconds.
+[2019.10.22-15.31.39:212][763]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2019.10.22-15.31.39:240][763]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/MI_Broad_Red641ECFB44D94488436195584446FF5D4.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Vegetation/Trees/Materials/MI_Broad_Red.uasset'
+[2019.10.22-15.31.40:407][811]LogSlate: Window 'MI_Broad_Red' being destroyed
+[2019.10.22-15.34.17:186][382]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.22-15.34.38:872][487]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-15.34.49:655][ 14]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-15.34.54:344][258]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-15.34.54:439][261]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2019.10.22-15.34.55:649][261]LogSlate: Window 'Save Content' being destroyed
+[2019.10.22-15.34.55:717][261]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2019.10.22-15.34.56:483][261]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Island8EA5ABDC4E02FCF31AA714AF09C0376C.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Island.umap'
+[2019.10.22-15.34.56:517][261]LogFileHelpers: Saving map 'Island' took 0.826
+[2019.10.22-15.39.23:014][398]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.22-15.39.23:119][402]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2019.10.22-15.39.24:275][402]LogSlate: Window 'Save Content' being destroyed
+[2019.10.22-15.39.24:350][402]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2019.10.22-15.39.25:032][402]LogSavePackage: Moving '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Island7DA078244070E186FCED288CA99F1431.tmp' to '../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Content/Island.umap'
+[2019.10.22-15.39.25:063][402]LogFileHelpers: Saving map 'Island' took 0.743
+[2019.10.22-15.39.39:272][222]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2019.10.22-15.39.39:351][222]LogSlate: Window 'Union - Unreal Editor' being destroyed
+[2019.10.22-15.39.39:548][223]Cmd: QUIT_EDITOR
+[2019.10.22-15.39.39:553][223]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2019.10.22-15.39.39:595][223]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.10.22-15.39.39:611][223]LogExit: Preparing to exit.
+[2019.10.22-15.39.39:908][223]LogExit: Editor shut down
+[2019.10.22-15.39.39:909][223]LogExit: Transaction tracking system shut down
+[2019.10.22-15.39.40:378][223]LogExit: Object subsystem successfully closed.
+[2019.10.22-15.39.40:419][223]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.10.22-15.39.40:426][223]LogD3D11RHI: Shutdown
+[2019.10.22-15.39.40:426][223]LogD3D11RHI: CleanupD3DDevice
+[2019.10.22-15.39.40:427][223]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.10.22-15.39.40:427][223]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.10.22-15.39.40:427][223]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.10.22-15.39.40:427][223]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.10.22-15.39.40:427][223]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
+[2019.10.22-15.39.40:427][223]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
+[2019.10.22-15.39.40:760][223]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.10.22-15.39.40:791][223]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (698)
+[2019.10.22-15.39.40:791][223]LogModuleManager: Shutting down and abandoning module TextureEditor (696)
+[2019.10.22-15.39.40:791][223]LogModuleManager: Shutting down and abandoning module MeshBuilder (694)
+[2019.10.22-15.39.40:791][223]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (692)
+[2019.10.22-15.39.40:791][223]LogModuleManager: Shutting down and abandoning module SceneOutliner (690)
+[2019.10.22-15.39.40:791][223]LogModuleManager: Shutting down and abandoning module AddContentDialog (688)
+[2019.10.22-15.39.40:792][223]LogModuleManager: Shutting down and abandoning module WidgetCarousel (687)
+[2019.10.22-15.39.40:792][223]LogModuleManager: Shutting down and abandoning module EditorWidgets (684)
+[2019.10.22-15.39.40:792][223]LogModuleManager: Shutting down and abandoning module CollectionManager (682)
+[2019.10.22-15.39.40:792][223]LogModuleManager: Shutting down and abandoning module StatsViewer (680)
+[2019.10.22-15.39.40:792][223]LogModuleManager: Shutting down and abandoning module FoliageEdit (678)
+[2019.10.22-15.39.40:792][223]LogModuleManager: Shutting down and abandoning module LandscapeEditor (676)
+[2019.10.22-15.39.40:793][223]LogModuleManager: Shutting down and abandoning module MeshPaintMode (674)
+[2019.10.22-15.39.40:793][223]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (672)
+[2019.10.22-15.39.40:793][223]LogModuleManager: Shutting down and abandoning module ActorPickerMode (670)
+[2019.10.22-15.39.40:793][223]LogModuleManager: Shutting down and abandoning module GeometryMode (668)
+[2019.10.22-15.39.40:793][223]LogModuleManager: Shutting down and abandoning module TextureAlignMode (666)
+[2019.10.22-15.39.40:793][223]LogModuleManager: Shutting down and abandoning module BspMode (664)
+[2019.10.22-15.39.40:793][223]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (662)
+[2019.10.22-15.39.40:793][223]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (660)
+[2019.10.22-15.39.40:793][223]LogModuleManager: Shutting down and abandoning module AutomationWorker (658)
+[2019.10.22-15.39.40:793][223]LogModuleManager: Shutting down and abandoning module DatasmithFBXImporter (656)
+[2019.10.22-15.39.40:794][223]LogModuleManager: Shutting down and abandoning module DatasmithDeltaGenImporter (654)
+[2019.10.22-15.39.40:794][223]LogModuleManager: Shutting down and abandoning module DatasmithVREDImporter (652)
+[2019.10.22-15.39.40:794][223]LogModuleManager: Shutting down and abandoning module OculusMR (650)
+[2019.10.22-15.39.40:794][223]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (648)
+[2019.10.22-15.39.40:794][223]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (646)
+[2019.10.22-15.39.40:794][223]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (644)
+[2019.10.22-15.39.40:795][223]LogModuleManager: Shutting down and abandoning module PlacementMode (643)
+[2019.10.22-15.39.40:795][223]LogModuleManager: Shutting down and abandoning module MaterialEditor (642)
+[2019.10.22-15.39.40:795][223]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (638)
+[2019.10.22-15.39.40:795][223]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (636)
+[2019.10.22-15.39.40:795][223]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (634)
+[2019.10.22-15.39.40:795][223]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (632)
+[2019.10.22-15.39.40:795][223]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (630)
+[2019.10.22-15.39.40:795][223]LogModuleManager: Shutting down and abandoning module WebMMedia (628)
+[2019.10.22-15.39.40:795][223]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (626)
+[2019.10.22-15.39.40:795][223]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (624)
+[2019.10.22-15.39.40:795][223]LogModuleManager: Shutting down and abandoning module SequenceRecorder (623)
+[2019.10.22-15.39.40:795][223]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (620)
+[2019.10.22-15.39.40:795][223]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (618)
+[2019.10.22-15.39.40:795][223]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (616)
+[2019.10.22-15.39.40:795][223]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (614)
+[2019.10.22-15.39.40:795][223]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (612)
+[2019.10.22-15.39.40:795][223]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (610)
+[2019.10.22-15.39.40:795][223]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (608)
+[2019.10.22-15.39.40:795][223]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (606)
+[2019.10.22-15.39.40:795][223]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (604)
+[2019.10.22-15.39.40:795][223]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (602)
+[2019.10.22-15.39.40:795][223]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (600)
+[2019.10.22-15.39.40:795][223]LogModuleManager: Shutting down and abandoning module CharacterAI (598)
+[2019.10.22-15.39.40:795][223]LogModuleManager: Shutting down and abandoning module SmartSnapping (596)
+[2019.10.22-15.39.40:795][223]LogModuleManager: Shutting down and abandoning module SessionServices (594)
+[2019.10.22-15.39.40:795][223]LogModuleManager: Shutting down and abandoning module MeshPaint (592)
+[2019.10.22-15.39.40:795][223]LogModuleManager: Shutting down and abandoning module ViewportSnapping (590)
+[2019.10.22-15.39.40:795][223]LogModuleManager: Shutting down and abandoning module ViewportInteraction (588)
+[2019.10.22-15.39.40:795][223]LogModuleManager: Shutting down and abandoning module ClothPainter (586)
+[2019.10.22-15.39.40:796][223]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (585)
+[2019.10.22-15.39.40:796][223]LogModuleManager: Shutting down and abandoning module LogVisualizer (582)
+[2019.10.22-15.39.40:796][223]LogModuleManager: Shutting down and abandoning module IntroTutorials (580)
+[2019.10.22-15.39.40:796][223]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (579)
+[2019.10.22-15.39.40:797][223]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (576)
+[2019.10.22-15.39.40:797][223]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (574)
+[2019.10.22-15.39.40:797][223]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (572)
+[2019.10.22-15.39.40:797][223]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (570)
+[2019.10.22-15.39.40:797][223]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (569)
+[2019.10.22-15.39.42:274][223]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (566)
+[2019.10.22-15.39.42:274][223]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (564)
+[2019.10.22-15.39.42:274][223]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (562)
+[2019.10.22-15.39.42:274][223]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (560)
+[2019.10.22-15.39.42:275][223]LogModuleManager: Shutting down and abandoning module TimeManagementEditor (558)
+[2019.10.22-15.39.42:275][223]LogModuleManager: Shutting down and abandoning module InputBindingEditor (556)
+[2019.10.22-15.39.42:275][223]LogModuleManager: Shutting down and abandoning module MergeActors (554)
+[2019.10.22-15.39.42:275][223]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (552)
+[2019.10.22-15.39.42:275][223]LogModuleManager: Shutting down and abandoning module LocalizationService (551)
+[2019.10.22-15.39.42:275][223]LogModuleManager: Shutting down and abandoning module HardwareTargeting (548)
+[2019.10.22-15.39.42:275][223]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (546)
+[2019.10.22-15.39.42:275][223]LogModuleManager: Shutting down and abandoning module UndoHistory (544)
+[2019.10.22-15.39.42:275][223]LogModuleManager: Shutting down and abandoning module XmlParser (542)
+[2019.10.22-15.39.42:275][223]LogModuleManager: Shutting down and abandoning module Blutility (540)
+[2019.10.22-15.39.42:275][223]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (538)
+[2019.10.22-15.39.42:275][223]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (537)
+[2019.10.22-15.39.42:276][223]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (534)
+[2019.10.22-15.39.42:276][223]LogModuleManager: Shutting down and abandoning module SettingsEditor (532)
+[2019.10.22-15.39.42:276][223]LogModuleManager: Shutting down and abandoning module ProjectLauncher (530)
+[2019.10.22-15.39.42:276][223]LogModuleManager: Shutting down and abandoning module SessionFrontend (528)
+[2019.10.22-15.39.42:276][223]LogModuleManager: Shutting down and abandoning module ProfilerClient (526)
+[2019.10.22-15.39.42:276][223]LogModuleManager: Shutting down and abandoning module DeviceManager (524)
+[2019.10.22-15.39.42:276][223]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (523)
+[2019.10.22-15.39.42:320][223]LogModuleManager: Shutting down and abandoning module AutomationController (520)
+[2019.10.22-15.39.42:320][223]LogModuleManager: Shutting down and abandoning module AutomationWindow (518)
+[2019.10.22-15.39.42:320][223]LogModuleManager: Shutting down and abandoning module Layers (516)
+[2019.10.22-15.39.42:321][223]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (514)
+[2019.10.22-15.39.42:321][223]LogModuleManager: Shutting down and abandoning module DetailCustomizations (512)
+[2019.10.22-15.39.42:321][223]LogModuleManager: Shutting down and abandoning module PackagesDialog (510)
+[2019.10.22-15.39.42:321][223]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (508)
+[2019.10.22-15.39.42:322][223]LogModuleManager: Shutting down and abandoning module Persona (506)
+[2019.10.22-15.39.42:322][223]LogModuleManager: Shutting down and abandoning module AnimGraph (505)
+[2019.10.22-15.39.42:322][223]LogModuleManager: Shutting down and abandoning module Kismet (502)
+[2019.10.22-15.39.42:323][223]LogModuleManager: Shutting down and abandoning module GraphEditor (500)
+[2019.10.22-15.39.42:324][223]LogModuleManager: Shutting down and abandoning module ClassViewer (498)
+[2019.10.22-15.39.42:324][223]LogModuleManager: Shutting down and abandoning module Toolbox (496)
+[2019.10.22-15.39.42:324][223]LogModuleManager: Shutting down and abandoning module ModuleUI (494)
+[2019.10.22-15.39.42:324][223]LogModuleManager: Shutting down and abandoning module MovieSceneTools (492)
+[2019.10.22-15.39.42:324][223]LogModuleManager: Shutting down and abandoning module OutputLog (490)
+[2019.10.22-15.39.42:324][223]LogModuleManager: Shutting down and abandoning module GammaUI (488)
+[2019.10.22-15.39.42:324][223]LogModuleManager: Shutting down and abandoning module Documentation (486)
+[2019.10.22-15.39.42:324][223]LogModuleManager: Shutting down and abandoning module LiveCoding (484)
+[2019.10.22-15.39.42:324][223]LogModuleManager: Shutting down and abandoning module LevelSequence (482)
+[2019.10.22-15.39.42:324][223]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (480)
+[2019.10.22-15.39.42:324][223]LogModuleManager: Shutting down and abandoning module MovieScene (478)
+[2019.10.22-15.39.42:324][223]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (476)
+[2019.10.22-15.39.42:324][223]LogModuleManager: Shutting down and abandoning module LauncherPlatform (474)
+[2019.10.22-15.39.42:324][223]LogModuleManager: Shutting down and abandoning module AnalyticsET (472)
+[2019.10.22-15.39.42:324][223]LogModuleManager: Shutting down and abandoning module PortalServices (470)
+[2019.10.22-15.39.42:324][223]LogModuleManager: Shutting down and abandoning module PortalRpc (468)
+[2019.10.22-15.39.42:324][223]LogModuleManager: Shutting down and abandoning module MessagingRpc (466)
+[2019.10.22-15.39.42:324][223]LogModuleManager: Shutting down and abandoning module AIModule (464)
+[2019.10.22-15.39.42:324][223]LogModuleManager: Shutting down and abandoning module GameplayDebugger (463)
+[2019.10.22-15.39.42:324][223]LogModuleManager: Shutting down and abandoning module AITestSuite (461)
+[2019.10.22-15.39.42:324][223]LogModuleManager: Shutting down and abandoning module NavigationSystem (459)
+[2019.10.22-15.39.42:324][223]LogModuleManager: Shutting down and abandoning module DesktopPlatform (456)
+[2019.10.22-15.39.42:324][223]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (454)
+[2019.10.22-15.39.42:328][223]LogModuleManager: Shutting down and abandoning module ProfilerService (452)
+[2019.10.22-15.39.42:554][223]LogModuleManager: Shutting down and abandoning module TaskGraph (450)
+[2019.10.22-15.39.42:555][223]LogModuleManager: Shutting down and abandoning module DatasmithCADImporter (448)
+[2019.10.22-15.39.42:555][223]LogModuleManager: Shutting down and abandoning module SubstanceLiveLink (446)
+[2019.10.22-15.39.42:556][223]LogModuleManager: Shutting down and abandoning module SubstanceSource (444)
+[2019.10.22-15.39.42:556][223]LogModuleManager: Shutting down and abandoning module SubstanceEditor (442)
+[2019.10.22-15.39.42:556][223]LogModuleManager: Shutting down and abandoning module VariantManager (440)
+[2019.10.22-15.39.42:556][223]LogModuleManager: Shutting down and abandoning module StaticMeshEditorExtension (438)
+[2019.10.22-15.39.42:556][223]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (437)
+[2019.10.22-15.39.42:556][223]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (436)
+[2019.10.22-15.39.42:556][223]LogModuleManager: Shutting down and abandoning module MeshProcessingLibrary (433)
+[2019.10.22-15.39.42:556][223]LogModuleManager: Shutting down and abandoning module MDLImporter (430)
+[2019.10.22-15.39.42:556][223]LogModuleManager: Shutting down and abandoning module DatasmithGLTFImporter (428)
+[2019.10.22-15.39.42:556][223]LogModuleManager: Shutting down and abandoning module DatasmithImporter (427)
+[2019.10.22-15.39.42:557][223]LogModuleManager: Shutting down and abandoning module DatasmithDataPrepLibraries (424)
+[2019.10.22-15.39.42:557][223]LogModuleManager: Shutting down and abandoning module DatasmithDataPrepEditor (422)
+[2019.10.22-15.39.42:557][223]LogModuleManager: Shutting down and abandoning module SteamVRController (420)
+[2019.10.22-15.39.42:557][223]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (418)
+[2019.10.22-15.39.42:557][223]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (416)
+[2019.10.22-15.39.42:557][223]LogModuleManager: Shutting down and abandoning module OculusEditor (414)
+[2019.10.22-15.39.42:557][223]LogModuleManager: Shutting down and abandoning module OculusInput (412)
+[2019.10.22-15.39.42:557][223]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (410)
+[2019.10.22-15.39.42:557][223]LogModuleManager: Shutting down and abandoning module EditableMesh (408)
+[2019.10.22-15.39.42:557][223]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (406)
+[2019.10.22-15.39.42:557][223]LogModuleManager: Shutting down and abandoning module CableComponent (404)
+[2019.10.22-15.39.42:557][223]LogModuleManager: Shutting down and abandoning module AudioCapture (402)
+[2019.10.22-15.39.42:557][223]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (400)
+[2019.10.22-15.39.42:557][223]LogModuleManager: Shutting down and abandoning module AndroidPermission (398)
+[2019.10.22-15.39.42:557][223]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (396)
+[2019.10.22-15.39.42:557][223]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (394)
+[2019.10.22-15.39.42:557][223]LogModuleManager: Shutting down and abandoning module MediaCompositing (392)
+[2019.10.22-15.39.42:557][223]LogModuleManager: Shutting down and abandoning module LinearTimecode (390)
+[2019.10.22-15.39.42:557][223]LogModuleManager: Shutting down and abandoning module ImgMedia (388)
+[2019.10.22-15.39.42:557][223]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (386)
+[2019.10.22-15.39.42:557][223]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (384)
+[2019.10.22-15.39.42:557][223]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (382)
+[2019.10.22-15.39.42:557][223]LogModuleManager: Shutting down and abandoning module HTML5Networking (380)
+[2019.10.22-15.39.42:557][223]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (378)
+[2019.10.22-15.39.42:557][223]LogModuleManager: Shutting down and abandoning module GeometryCollectionExampleCore (376)
+[2019.10.22-15.39.42:557][223]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (374)
+[2019.10.22-15.39.42:557][223]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (372)
+[2019.10.22-15.39.42:557][223]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (370)
+[2019.10.22-15.39.42:558][223]LogModuleManager: Shutting down and abandoning module BlastAuthoring (368)
+[2019.10.22-15.39.42:558][223]LogModuleManager: Shutting down and abandoning module BackChannel (366)
+[2019.10.22-15.39.42:558][223]LogModuleManager: Shutting down and abandoning module AppleVision (364)
+[2019.10.22-15.39.42:558][223]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (362)
+[2019.10.22-15.39.42:558][223]LogModuleManager: Shutting down and abandoning module AppleImageUtils (360)
+[2019.10.22-15.39.42:558][223]LogModuleManager: Shutting down and abandoning module AlembicImporter (358)
+[2019.10.22-15.39.42:558][223]LogModuleManager: Shutting down and abandoning module AlembicLibrary (357)
+[2019.10.22-15.39.42:558][223]LogModuleManager: Shutting down and abandoning module GeometryCache (356)
+[2019.10.22-15.39.42:558][223]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (355)
+[2019.10.22-15.39.42:558][223]LogModuleManager: Shutting down and abandoning module VariantManagerContent (350)
+[2019.10.22-15.39.42:558][223]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (348)
+[2019.10.22-15.39.42:558][223]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (346)
+[2019.10.22-15.39.42:558][223]LogModuleManager: Shutting down and abandoning module PluginBrowser (344)
+[2019.10.22-15.39.42:558][223]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (342)
+[2019.10.22-15.39.42:558][223]LogModuleManager: Shutting down and abandoning module PolygonModeling (340)
+[2019.10.22-15.39.42:558][223]LogModuleManager: Shutting down and abandoning module MeshEditor (338)
+[2019.10.22-15.39.42:558][223]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (336)
+[2019.10.22-15.39.42:558][223]LogModuleManager: Shutting down and abandoning module GLTFImporter (334)
+[2019.10.22-15.39.42:558][223]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (332)
+[2019.10.22-15.39.42:558][223]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.10.22-15.39.42:558][223]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.10.22-15.39.42:558][223]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.10.22-15.39.42:558][223]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.10.22-15.39.42:558][223]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.10.22-15.39.42:558][223]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.10.22-15.39.42:558][223]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.10.22-15.39.42:559][223]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.10.22-15.39.42:559][223]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.10.22-15.39.42:559][223]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.10.22-15.39.42:559][223]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (310)
+[2019.10.22-15.39.42:559][223]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (308)
+[2019.10.22-15.39.42:559][223]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (306)
+[2019.10.22-15.39.42:559][223]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (304)
+[2019.10.22-15.39.42:559][223]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (302)
+[2019.10.22-15.39.42:559][223]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (300)
+[2019.10.22-15.39.42:559][223]LogModuleManager: Shutting down and abandoning module Paper2DEditor (298)
+[2019.10.22-15.39.42:559][223]LogModuleManager: Shutting down and abandoning module SignificanceManager (296)
+[2019.10.22-15.39.42:559][223]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (294)
+[2019.10.22-15.39.42:559][223]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (292)
+[2019.10.22-15.39.42:559][223]LogModuleManager: Shutting down and abandoning module PhysXVehicles (290)
+[2019.10.22-15.39.42:559][223]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (288)
+[2019.10.22-15.39.42:559][223]LogModuleManager: Shutting down and abandoning module ActorSequence (286)
+[2019.10.22-15.39.42:559][223]LogModuleManager: Shutting down and abandoning module UdpMessaging (284)
+[2019.10.22-15.39.42:659][223]LogModuleManager: Shutting down and abandoning module TcpMessaging (282)
+[2019.10.22-15.39.42:760][223]LogModuleManager: Shutting down and abandoning module SubstanceCore (280)
+[2019.10.22-15.39.42:760][223]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (278)
+[2019.10.22-15.39.42:760][223]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (276)
+[2019.10.22-15.39.42:760][223]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (274)
+[2019.10.22-15.39.42:760][223]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (272)
+[2019.10.22-15.39.42:760][223]LogModuleManager: Shutting down and abandoning module MagicLeapController (270)
+[2019.10.22-15.39.42:760][223]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.10.22-15.39.42:760][223]LogModuleManager: Shutting down and abandoning module MagicLeapAR (268)
+[2019.10.22-15.39.42:760][223]LogModuleManager: Shutting down and abandoning module AugmentedReality (267)
+[2019.10.22-15.39.42:760][223]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (264)
+[2019.10.22-15.39.42:761][223]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (262)
+[2019.10.22-15.39.42:761][223]LogModuleManager: Shutting down and abandoning module FacialAnimation (260)
+[2019.10.22-15.39.42:761][223]LogModuleManager: Shutting down and abandoning module DataValidation (258)
+[2019.10.22-15.39.42:761][223]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (256)
+[2019.10.22-15.39.42:761][223]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2019.10.22-15.39.42:762][223]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2019.10.22-15.39.42:762][223]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (252)
+[2019.10.22-15.39.42:762][223]LogModuleManager: Shutting down and abandoning module MainFrame (250)
+[2019.10.22-15.39.42:762][223]LogModuleManager: Shutting down and abandoning module HotReload (249)
+[2019.10.22-15.39.42:762][223]LogModuleManager: Shutting down and abandoning module ContentBrowser (245)
+[2019.10.22-15.39.42:763][223]LogModuleManager: Shutting down and abandoning module TreeMap (243)
+[2019.10.22-15.39.42:763][223]LogModuleManager: Shutting down and abandoning module AnimationSharing (240)
+[2019.10.22-15.39.42:763][223]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2019.10.22-15.39.42:763][223]LogModuleManager: Shutting down and abandoning module AISupportModule (236)
+[2019.10.22-15.39.42:763][223]LogModuleManager: Shutting down and abandoning module Paper2D (234)
+[2019.10.22-15.39.42:763][223]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (232)
+[2019.10.22-15.39.42:763][223]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (230)
+[2019.10.22-15.39.42:763][223]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2019.10.22-15.39.42:763][223]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2019.10.22-15.39.42:763][223]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2019.10.22-15.39.42:764][223]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2019.10.22-15.39.42:764][223]LogModuleManager: Shutting down and abandoning module Overlay (220)
+[2019.10.22-15.39.42:764][223]LogModuleManager: Shutting down and abandoning module OverlayEditor (219)
+[2019.10.22-15.39.42:764][223]LogModuleManager: Shutting down and abandoning module VREditor (216)
+[2019.10.22-15.39.42:764][223]LogModuleManager: Shutting down and abandoning module StringTableEditor (214)
+[2019.10.22-15.39.42:764][223]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (212)
+[2019.10.22-15.39.42:764][223]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (210)
+[2019.10.22-15.39.42:764][223]LogModuleManager: Shutting down and abandoning module FunctionalTesting (208)
+[2019.10.22-15.39.42:764][223]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (206)
+[2019.10.22-15.39.42:764][223]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (205)
+[2019.10.22-15.39.42:765][223]LogModuleManager: Shutting down and abandoning module UMG (202)
+[2019.10.22-15.39.42:765][223]LogModuleManager: Shutting down and abandoning module UMGEditor (201)
+[2019.10.22-15.39.42:765][223]LogModuleManager: Shutting down and abandoning module Sequencer (200)
+[2019.10.22-15.39.42:766][223]LogModuleManager: Shutting down and abandoning module MessageLog (197)
+[2019.10.22-15.39.42:766][223]LogModuleManager: Shutting down and abandoning module SlateReflector (192)
+[2019.10.22-15.39.42:767][223]LogModuleManager: Shutting down and abandoning module Slate (190)
+[2019.10.22-15.39.42:767][223]LogModuleManager: Shutting down and abandoning module EditorStyle (188)
+[2019.10.22-15.39.42:768][223]LogModuleManager: Shutting down and abandoning module UnrealEd (186)
+[2019.10.22-15.39.42:768][223]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2019.10.22-15.39.42:768][223]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2019.10.22-15.39.42:768][223]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2019.10.22-15.39.42:768][223]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2019.10.22-15.39.42:768][223]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2019.10.22-15.39.42:768][223]LogModuleManager: Shutting down and abandoning module Core (174)
+[2019.10.22-15.39.42:768][223]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2019.10.22-15.39.42:768][223]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2019.10.22-15.39.42:768][223]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2019.10.22-15.39.42:768][223]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2019.10.22-15.39.42:768][223]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (167)
+[2019.10.22-15.39.42:769][223]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (165)
+[2019.10.22-15.39.42:769][223]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (163)
+[2019.10.22-15.39.42:769][223]LogModuleManager: Shutting down and abandoning module MaterialBaking (159)
+[2019.10.22-15.39.42:770][223]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2019.10.22-15.39.42:822][223]LogDerivedDataCache: Shutdown
+[2019.10.22-15.39.42:822][223]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2019.10.22-15.39.42:822][223]LogXGEController: Cleaning working directory: C:/Users/user/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.10.22-15.39.42:822][223]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2019.10.22-15.39.42:822][223]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2019.10.22-15.39.42:822][223]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2019.10.22-15.39.42:822][223]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2019.10.22-15.39.42:823][223]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2019.10.22-15.39.42:823][223]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2019.10.22-15.39.42:823][223]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2019.10.22-15.39.42:823][223]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2019.10.22-15.39.42:823][223]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2019.10.22-15.39.42:823][223]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2019.10.22-15.39.42:823][223]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2019.10.22-15.39.42:823][223]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2019.10.22-15.39.42:823][223]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2019.10.22-15.39.42:823][223]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2019.10.22-15.39.42:823][223]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2019.10.22-15.39.42:823][223]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2019.10.22-15.39.42:823][223]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (119)
+[2019.10.22-15.39.42:824][223]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (117)
+[2019.10.22-15.39.42:824][223]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (115)
+[2019.10.22-15.39.42:824][223]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (113)
+[2019.10.22-15.39.42:824][223]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (111)
+[2019.10.22-15.39.42:824][223]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (109)
+[2019.10.22-15.39.42:825][223]LogModuleManager: Shutting down and abandoning module Messaging (107)
+[2019.10.22-15.39.42:825][223]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (105)
+[2019.10.22-15.39.42:825][223]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (103)
+[2019.10.22-15.39.42:825][223]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (101)
+[2019.10.22-15.39.42:831][223]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (99)
+[2019.10.22-15.39.42:831][223]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (97)
+[2019.10.22-15.39.42:831][223]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (95)
+[2019.10.22-15.39.42:831][223]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (93)
+[2019.10.22-15.39.42:831][223]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (91)
+[2019.10.22-15.39.42:831][223]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (89)
+[2019.10.22-15.39.42:831][223]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (87)
+[2019.10.22-15.39.42:831][223]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (85)
+[2019.10.22-15.39.42:831][223]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (83)
+[2019.10.22-15.39.42:831][223]LogModuleManager: Shutting down and abandoning module InputCore (80)
+[2019.10.22-15.39.42:831][223]LogModuleManager: Shutting down and abandoning module Settings (78)
+[2019.10.22-15.39.42:831][223]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (76)
+[2019.10.22-15.39.42:831][223]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
+[2019.10.22-15.39.42:831][223]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2019.10.22-15.39.42:831][223]LogHMD: Freeing OpenVRDLLHandle.
+[2019.10.22-15.39.42:831][223]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2019.10.22-15.39.42:831][223]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2019.10.22-15.39.42:831][223]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2019.10.22-15.39.42:831][223]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
+[2019.10.22-15.39.42:831][223]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
+[2019.10.22-15.39.42:833][223]LogModuleManager: Shutting down and abandoning module XMPP (55)
+[2019.10.22-15.39.42:833][223]LogModuleManager: Shutting down and abandoning module WebSockets (54)
+[2019.10.22-15.39.42:845][223]LogModuleManager: Shutting down and abandoning module HTTP (51)
+[2019.10.22-15.39.42:845][223]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.10.22-15.39.42:846][223]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B265FA3CC-49FD-2F25-D504-58B42511FC6B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.22.3-7053642%2B%2B%2BUE4%2BRelease-4.22&UserID=9a0565c246953105c1a0e8b52dd4ae60%7C9aea065f86fd4981a4ef02aa3c13de84%7Ce1a5093f-7a8b-4cc5-af38-eb387103d9a8&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.10.22-15.39.42:848][223]LogModuleManager: Shutting down and abandoning module SSL (50)
+[2019.10.22-15.39.42:849][223]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
+[2019.10.22-15.39.42:851][223]LogModuleManager: Shutting down and abandoning module Media (45)
+[2019.10.22-15.39.42:858][223]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
+[2019.10.22-15.39.42:858][223]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2019.10.22-15.39.42:858][223]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2019.10.22-15.39.42:858][223]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2019.10.22-15.39.42:859][223]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2019.10.22-15.39.42:859][223]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2019.10.22-15.39.42:859][223]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2019.10.22-15.39.42:859][223]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2019.10.22-15.39.42:859][223]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2019.10.22-15.39.42:860][223]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2019.10.22-15.39.42:860][223]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2019.10.22-15.39.42:860][223]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2019.10.22-15.39.42:860][223]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2019.10.22-15.39.42:860][223]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2019.10.22-15.39.42:860][223]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2019.10.22-15.39.42:860][223]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2019.10.22-15.39.42:860][223]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2019.10.22-15.39.42:860][223]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2019.10.22-15.39.42:860][223]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2019.10.22-15.39.42:860][223]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2019.10.22-15.39.42:860][223]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2019.10.22-15.39.42:875][223]LogExit: Exiting.
+[2019.10.22-15.39.42:897][223]Log file closed, 10/23/19 00:39:42
