@@ -1,4 +1,4 @@
-﻿Log file open, 10/23/19 14:03:17
+﻿Log file open, 11/10/19 00:49:55
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: Union
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.397851
+LogStats: Stats thread started at 0.404914
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -96,6 +96,7 @@ LogPluginManager: Mounting plugin IOSDeviceProfileSelector
 LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
 LogPluginManager: Mounting plugin LocationServicesBPLibrary
 LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin Ansel
 LogPluginManager: Mounting plugin OculusVR
 LogPluginManager: Mounting plugin PhysXVehicles
 LogPluginManager: Mounting plugin ProceduralMeshComponent
@@ -131,6 +132,7 @@ LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connecti
 LogInit:  - LocalHostAddr = Default
 LogInit:  - BufferSize = 65536
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogAnsel: Tried to load ../../../Engine/Plugins/Runtime/Nvidia/Ansel/Binaries/ThirdParty/AnselSDK64.dll : success=1
 LogInit: Build: ++UE4+Release-4.22-CL-7053642
 LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
 LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
@@ -171,775 +173,704 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.10.23-05.03.17:700][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
-[2019.10.23-05.03.17:700][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.10.23-05.03.17:700][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Engine.ini]
-[2019.10.23-05.03.17:700][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.10.23-05.03.17:700][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2019.10.23-05.03.17:700][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:1]]
-[2019.10.23-05.03.17:700][  0]LogConfig: Setting CVar [[r.GBufferFormat:3]]
-[2019.10.23-05.03.17:701][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:512]]
-[2019.10.23-05.03.17:701][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Engine.ini]
-[2019.10.23-05.03.17:701][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Engine.ini]
-[2019.10.23-05.03.17:701][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.10.23-05.03.17:701][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.10.23-05.03.17:701][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.10.23-05.03.17:701][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.10.23-05.03.17:701][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.10.23-05.03.17:701][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.10.23-05.03.17:701][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.10.23-05.03.17:701][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.10.23-05.03.17:701][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.10.23-05.03.17:701][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.10.23-05.03.17:701][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.10.23-05.03.17:701][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.10.23-05.03.17:701][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.10.23-05.03.17:701][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Engine.ini]
-[2019.10.23-05.03.17:701][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.10.23-05.03.17:701][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.10.23-05.03.17:701][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.10.23-05.03.17:701][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.10.23-05.03.17:701][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.10.23-05.03.17:701][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.10.23-05.03.17:701][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.10.23-05.03.17:701][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.10.23-05.03.17:701][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.10.23-05.03.17:701][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.10.23-05.03.17:701][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.10.23-05.03.17:701][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.10.23-05.03.17:701][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.10.23-05.03.17:701][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Engine.ini]
-[2019.10.23-05.03.17:701][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Engine.ini]
-[2019.10.23-05.03.17:703][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
-[2019.10.23-05.03.17:703][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.10.23-05.03.17:703][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.10.23-05.03.17:703][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
-[2019.10.23-05.03.17:703][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.10.23-05.03.17:703][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
-[2019.10.23-05.03.17:703][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.10.23-05.03.17:703][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.10.23-05.03.17:703][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.10.23-05.03.17:703][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.10.23-05.03.17:703][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.10.23-05.03.17:703][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.10.23-05.03.17:703][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.10.23-05.03.17:704][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.10.23-05.03.17:704][  0]LogInit: Selected Device Profile: [Windows]
-[2019.10.23-05.03.17:704][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.10.23-05.03.17:709][  0]LogHAL: Display: Platform has ~ 32 GB [34197495808 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.10.23-05.03.17:709][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
-[2019.10.23-05.03.17:709][  0]LogInit: Going up to parent DeviceProfile []
-[2019.10.23-05.03.17:709][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
-[2019.10.23-05.03.17:709][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.10.23-05.03.17:709][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.10.23-05.03.17:709][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
-[2019.10.23-05.03.17:709][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.10.23-05.03.17:709][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
-[2019.10.23-05.03.17:709][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.10.23-05.03.17:709][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.10.23-05.03.17:709][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.10.23-05.03.17:709][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.10.23-05.03.17:710][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.10.23-05.03.17:711][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.10.23-05.03.17:711][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.10.23-05.03.17:711][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.10.23-05.03.17:711][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.10.23-05.03.17:711][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.10.23-05.03.17:711][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
-[2019.10.23-05.03.17:711][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.10.23-05.03.17:711][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.10.23-05.03.17:711][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.10.23-05.03.17:711][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.10.23-05.03.17:711][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.10.23-05.03.17:711][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.10.23-05.03.17:711][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.10.23-05.03.17:711][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.10.23-05.03.17:711][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.10.23-05.03.17:711][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.10.23-05.03.17:711][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.10.23-05.03.17:711][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.10.23-05.03.17:711][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.10.23-05.03.17:711][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
-[2019.10.23-05.03.17:711][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.10.23-05.03.17:711][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.10.23-05.03.17:711][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.10.23-05.03.17:711][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.10.23-05.03.17:711][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.10.23-05.03.17:711][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:1]]
-[2019.10.23-05.03.17:711][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Engine.ini]
-[2019.10.23-05.03.17:711][  0]LogInit: Computer: DESKTOP-BGGG2GK
-[2019.10.23-05.03.17:711][  0]LogInit: User: user
-[2019.10.23-05.03.17:711][  0]LogInit: CPU Page size=4096, Cores=6
-[2019.10.23-05.03.17:711][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.10.23-05.03.17:712][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
-[2019.10.23-05.03.17:712][  0]LogMemory: Platform Memory Stats for Windows
-[2019.10.23-05.03.17:712][  0]LogMemory: Process Physical Memory: 99.22 MB used, 99.22 MB peak
-[2019.10.23-05.03.17:712][  0]LogMemory: Process Virtual Memory: 93.69 MB used, 93.69 MB peak
-[2019.10.23-05.03.17:712][  0]LogMemory: Physical Memory: 10664.35 MB used,  21948.92 MB free, 32613.27 MB total
-[2019.10.23-05.03.17:712][  0]LogMemory: Virtual Memory: 4664.59 MB used,  134213064.00 MB free, 134217728.00 MB total
-[2019.10.23-05.03.17:730][  0]LogInit: Using OS detected language (en-US).
-[2019.10.23-05.03.17:730][  0]LogInit: Using OS detected locale (en-US).
-[2019.10.23-05.03.17:730][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.10.23-05.03.17:924][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.10.23-05.03.17:924][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.10.23-05.03.17:965][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.10.23-05.03.17:965][  0]LogD3D11RHI: D3D11 adapters:
-[2019.10.23-05.03.18:161][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (Feature Level 11_0)
-[2019.10.23-05.03.18:161][  0]LogD3D11RHI:       8031/0/16306 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.10.23-05.03.18:172][  0]LogD3D11RHI:    1. 'Intel(R) UHD Graphics 630' (Feature Level 11_0)
-[2019.10.23-05.03.18:172][  0]LogD3D11RHI:       128/0/16306 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.10.23-05.03.18:174][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.10.23-05.03.18:174][  0]LogD3D11RHI:       0/0/16306 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.10.23-05.03.18:174][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.10.23-05.03.18:178][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.10.23-05.03.18:178][  0]LogD3D11RHI:     GPU DeviceId: 0x1f10 (for the marketing name, search the web for "GPU Device Id")
-[2019.10.23-05.03.18:178][  0]LogWindows: EnumDisplayDevices:
-[2019.10.23-05.03.18:178][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
-[2019.10.23-05.03.18:179][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2019.10.23-05.03.18:179][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
-[2019.10.23-05.03.18:179][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
-[2019.10.23-05.03.18:179][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
-[2019.10.23-05.03.18:180][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
-[2019.10.23-05.03.18:180][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
-[2019.10.23-05.03.18:180][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2019.10.23-05.03.18:180][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070 with Max-Q Design
-[2019.10.23-05.03.18:180][  0]LogD3D11RHI:   Driver Version: 436.15 (internal:26.21.14.3615, unified:436.15)
-[2019.10.23-05.03.18:180][  0]LogD3D11RHI:      Driver Date: 8-24-2019
-[2019.10.23-05.03.18:180][  0]LogRHI: Texture pool is 5621 MB (70% of 8031 MB)
-[2019.10.23-05.03.18:258][  0]LogD3D11RHI: Async texture creation enabled
-[2019.10.23-05.03.18:260][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.10.23-05.03.18:260][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.10.23-05.03.18:260][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.10.23-05.03.18:268][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.10.23-05.03.18:508][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.10.23-05.03.18:520][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.10.23-05.03.18:531][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.10.23-05.03.18:537][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.10.23-05.03.18:537][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.10.23-05.03.18:543][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.10.23-05.03.18:584][  0]LogShaderCompilers: Guid format shader working directory is -46 characters bigger than the processId version (../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Intermediate/Shaders/WorkingDirectory/11784/).
-[2019.10.23-05.03.18:584][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/user/AppData/Local/Temp/UnrealShaderWorkingDir/5547B94D487AAA4308F2A5BAC7C2F237/'.
-[2019.10.23-05.03.18:586][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.10.23-05.03.18:586][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.10.23-05.03.18:586][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.10.23-05.03.19:062][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.10.23-05.03.19:102][  0]LogDerivedDataCache: Loaded boot cache 0.04s 73MB C:/Users/user/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.10.23-05.03.19:102][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/user/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
-[2019.10.23-05.03.19:102][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.10.23-05.03.19:102][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.10.23-05.03.19:102][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.10.23-05.03.19:102][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.10.23-05.03.19:113][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.10.23-05.03.19:116][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
-[2019.10.23-05.03.19:128][  0]LogDerivedDataCache: Using Local data cache path C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.10.23-05.03.19:128][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.10.23-05.03.19:128][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.10.23-05.03.19:147][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.10.23-05.03.19:148][  0]LogSlate: Using FreeType 2.6.0
-[2019.10.23-05.03.19:149][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.10.23-05.03.19:263][  0]LogInit: Using OS detected language (en-US).
-[2019.10.23-05.03.19:263][  0]LogInit: Using OS detected locale (en-US).
-[2019.10.23-05.03.19:263][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
-[2019.10.23-05.03.19:263][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
-[2019.10.23-05.03.19:263][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2019.10.23-05.03.19:263][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
-[2019.10.23-05.03.19:264][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
-[2019.10.23-05.03.19:271][  0]LogAssetRegistry: FAssetRegistry took 0.0041 seconds to start up
-[2019.10.23-05.03.19:455][  0]LogPackageLocalizationCache: Processed 16 localized package path(s) for 1 prioritized culture(s) in 0.001041 seconds
-[2019.10.23-05.03.19:568][  0]LogInit: Selected Device Profile: [Windows]
-[2019.10.23-05.03.19:609][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.10.23-05.03.19:609][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.10.23-05.03.19:609][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.10.23-05.03.19:609][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.10.23-05.03.19:609][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.10.23-05.03.19:682][  0]LogNetVersion: Union 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 524765613)
-[2019.10.23-05.03.20:072][  0]LogMoviePlayer: Initializing movie player
-[2019.10.23-05.03.20:173][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
-[2019.10.23-05.03.20:175][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.10.23-05.03.20:188][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.10.23-05.03.20:265][  0]SourceControl: Source control is disabled
-[2019.10.23-05.03.20:265][  0]SourceControl: Source control is disabled
-[2019.10.23-05.03.20:266][  0]SourceControl: Source control is disabled
-[2019.10.23-05.03.20:273][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2019.10.23-05.03.20:274][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
-[2019.10.23-05.03.20:300][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.10.23-05.03.20:352][  0]LogOcInput: OculusInput pre-init called
-[2019.10.23-05.03.20:359][  0]LogUObjectArray: 46656 objects as part of root set at end of initial load.
-[2019.10.23-05.03.20:359][  0]LogUObjectAllocator: 8193784 out of 0 bytes used by permanent object pool.
-[2019.10.23-05.03.20:359][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.10.23-05.03.20:479][  0]LogEngine: Initializing Engine...
-[2019.10.23-05.03.20:480][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.10.23-05.03.20:492][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.10.23-05.03.20:631][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.10.23-05.03.20:642][  0]LogInit: XAudio2 using '스피커 (3- Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.10.23-05.03.20:652][  0]LogInit: FAudioDevice initialized.
-[2019.10.23-05.03.20:664][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.10.23-05.03.20:670][  0]LogInit: Texture streaming: Enabled
-[2019.10.23-05.03.20:811][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.23-05.03.20:812][  0]LogInit: Display: Game Engine Initialized.
-[2019.10.23-05.03.20:854][  0]LogInit: Display: Starting Game.
-[2019.10.23-05.03.20:854][  0]LogNet: Browse: /Game/Island?Name=Player
-[2019.10.23-05.03.20:854][  0]LogLoad: LoadMap: /Game/Island?Name=Player
-[2019.10.23-05.03.20:879][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
-[2019.10.23-05.03.20:925][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:925][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:925][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:925][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:925][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:925][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:925][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:925][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:925][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:925][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:925][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:925][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:925][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:925][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:925][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:925][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:926][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:926][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:926][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:926][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:926][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:926][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:926][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:926][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:926][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:926][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:926][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:926][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:926][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:926][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:926][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:926][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:927][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:927][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:927][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:927][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:927][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:927][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:927][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:927][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:927][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:927][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:927][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:927][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:927][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:927][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:928][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:928][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:928][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:928][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:928][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:928][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:928][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:928][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:928][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:928][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:928][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:928][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:928][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:928][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:929][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:929][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:929][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:929][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:929][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:929][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:929][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:929][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:929][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:929][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:929][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:929][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:930][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:930][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:930][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:930][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:930][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:930][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:930][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:930][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:930][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:930][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:930][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:930][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:930][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:930][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:930][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:930][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:931][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:931][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:931][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:931][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:931][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:931][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:931][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:931][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:931][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:931][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:931][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:931][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:931][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:931][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:931][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:931][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:932][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:932][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:932][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:932][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:932][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:932][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:932][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:932][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:932][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:932][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:932][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:932][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:932][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:932][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:932][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:932][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:933][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:933][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:933][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:933][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:933][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:933][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:933][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:933][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:933][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:933][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:933][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:933][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:933][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:933][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:933][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:933][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:934][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:934][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:934][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:934][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:934][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:934][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:934][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:934][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:934][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:934][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:934][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:934][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:934][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:934][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:934][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:934][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:935][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:935][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:935][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:935][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:935][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:935][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:935][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:935][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:935][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:935][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:935][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:935][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:935][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:935][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:935][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:935][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:936][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:936][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:936][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:936][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:936][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:936][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:936][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:936][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:936][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:936][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:936][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:936][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:937][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:937][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:937][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:937][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:937][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:937][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:937][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:937][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:937][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:937][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:937][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:937][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:937][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:937][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:938][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:938][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:938][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:938][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:938][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:938][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:938][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:938][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:938][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:938][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:938][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:938][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
-[2019.10.23-05.03.20:938][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.20:938][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
-[2019.10.23-05.03.21:506][  0]LogStaticMesh: Building static mesh SM_UdemyModel_Dead1...
-[2019.10.23-05.03.21:624][  0]LogStaticMesh: Built static mesh [0.12s] /Game/Vegetation/Trees/SM_UdemyModel_Dead1.SM_UdemyModel_Dead1
-[2019.10.23-05.03.24:457][  0]LogAIModule: Creating AISystem for world Island
-[2019.10.23-05.03.24:457][  0]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
-[2019.10.23-05.03.24:457][  0]LogLoad: Game class is 'GameModeBase'
-[2019.10.23-05.03.24:479][  0]LogWorld: Bringing World /Game/Island.Island up for play (max tick rate 0) at 2019.10.23-14.03.24
-[2019.10.23-05.03.24:479][  0]LogWorld: Bringing up level for play took: 0.020995
-[2019.10.23-05.03.24:485][  0]LogLoad: Took 3.631514 seconds to LoadMap(/Game/Island)
-[2019.10.23-05.03.24:561][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
-[2019.10.23-05.03.24:562][  0]LogStaticMesh: Allocated 512x496x128 distance field atlas = 62.0Mb, with 72 objects containing 49.1Mb backing data
-[2019.10.23-05.03.24:562][  0]LogLoad: (Engine Initialization) Total time: 8.43 seconds
-[2019.10.23-05.03.24:562][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.10.23-05.03.24:731][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.10.23-05.03.25:403][  5]LogMeshUtilities: Finished distance field build in 3.7s - 64x64x64 distance field, 7188 triangles, Range [-0.1, 0.7], SM_UdemyModel_Dead1
-[2019.10.23-05.03.31:234][342]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.23-05.03.32:752][436]LogWindowsDesktop: Alt-F4 pressed!
-[2019.10.23-05.03.32:777][436]LogSlate: Window 'Union (64-bit Development PCD3D_SM5) ' being destroyed
-[2019.10.23-05.03.32:777][436]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.10.23-05.03.32:783][436]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.10.23-05.03.32:784][436]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.23-05.03.32:784][436]LogEngine: All Windows Closed
-[2019.10.23-05.03.32:784][436]LogWindows: FPlatformMisc::RequestExit(0)
-[2019.10.23-05.03.33:491][437]LogExit: Preparing to exit.
-[2019.10.23-05.03.33:491][437]LogMoviePlayer: Shutting down movie player
-[2019.10.23-05.03.34:205][437]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.23-05.03.34:218][437]LogExit: Game engine shut down
-[2019.10.23-05.03.34:265][437]LogExit: Object subsystem successfully closed.
-[2019.10.23-05.03.34:280][437]LogShaderCompilers: Display: Shaders left to compile 0
-[2019.10.23-05.03.34:283][437]LogD3D11RHI: Shutdown
-[2019.10.23-05.03.34:283][437]LogD3D11RHI: CleanupD3DDevice
-[2019.10.23-05.03.34:283][437]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
-[2019.10.23-05.03.34:283][437]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
-[2019.10.23-05.03.34:283][437]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
-[2019.10.23-05.03.34:283][437]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
-[2019.10.23-05.03.34:283][437]LogRendererCore: FGlobalReadBuffer::ReleaseRHI
-[2019.10.23-05.03.34:283][437]LogRendererCore: FGlobalDynamicReadBuffer::Cleanup()
-[2019.10.23-05.03.34:420][437]LogD3D11RHI: ~FD3D11DynamicRHI
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (404)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module SequenceRecorder (402)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module AutomationController (400)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module AutomationWorker (398)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module Voice (396)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module AIModule (394)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module GameplayDebugger (393)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module AITestSuite (391)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module NavigationSystem (389)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module MeshBuilder (386)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module OculusMR (384)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (382)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (380)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module WebMMedia (378)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (376)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (374)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (372)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (370)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (368)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (366)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module CharacterAI (364)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module SessionServices (362)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (360)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module LiveCoding (358)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module LevelSequence (356)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (354)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module MovieScene (352)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (350)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module PortalServices (348)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module PortalRpc (346)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module MessagingRpc (344)
-[2019.10.23-05.03.34:431][437]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (342)
-[2019.10.23-05.03.34:433][437]LogModuleManager: Shutting down and abandoning module ProfilerService (340)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module TaskGraph (338)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module SteamVRController (336)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (334)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module OculusInput (332)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (330)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module EditableMesh (328)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (326)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module CableComponent (324)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module AudioCapture (322)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (320)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module AndroidPermission (318)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (316)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (314)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module MediaCompositing (312)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module LinearTimecode (310)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module ImgMedia (308)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (306)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (304)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (302)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module GeometryCollectionExampleCore (298)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (296)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (295)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module GeometryCache (292)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (291)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module BackChannel (288)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module AppleVision (286)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (284)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module AppleImageUtils (282)
-[2019.10.23-05.03.34:507][437]LogModuleManager: Shutting down and abandoning module VariantManagerContent (280)
-[2019.10.23-05.03.34:508][437]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (278)
-[2019.10.23-05.03.34:508][437]LogModuleManager: Shutting down and abandoning module CryptoKeys (276)
-[2019.10.23-05.03.34:508][437]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (274)
-[2019.10.23-05.03.34:508][437]LogModuleManager: Shutting down and abandoning module HotReload (273)
-[2019.10.23-05.03.34:508][437]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (272)
-[2019.10.23-05.03.34:508][437]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (268)
-[2019.10.23-05.03.34:508][437]LogModuleManager: Shutting down and abandoning module UObjectPlugin (266)
-[2019.10.23-05.03.34:508][437]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (264)
-[2019.10.23-05.03.34:508][437]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (262)
-[2019.10.23-05.03.34:508][437]LogModuleManager: Shutting down and abandoning module SourceControl (261)
-[2019.10.23-05.03.34:508][437]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (258)
-[2019.10.23-05.03.34:508][437]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (256)
-[2019.10.23-05.03.34:508][437]LogModuleManager: Shutting down and abandoning module SignificanceManager (254)
-[2019.10.23-05.03.34:508][437]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (252)
-[2019.10.23-05.03.34:508][437]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (250)
-[2019.10.23-05.03.34:508][437]LogModuleManager: Shutting down and abandoning module PhysXVehicles (248)
-[2019.10.23-05.03.34:508][437]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (246)
-[2019.10.23-05.03.34:508][437]LogModuleManager: Shutting down and abandoning module ActorSequence (244)
-[2019.10.23-05.03.34:508][437]LogModuleManager: Shutting down and abandoning module UdpMessaging (242)
-[2019.10.23-05.03.34:609][437]LogModuleManager: Shutting down and abandoning module TcpMessaging (240)
-[2019.10.23-05.03.35:185][437]LogModuleManager: Shutting down and abandoning module SubstanceCore (238)
-[2019.10.23-05.03.35:185][437]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (236)
-[2019.10.23-05.03.35:185][437]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (234)
-[2019.10.23-05.03.35:185][437]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (232)
-[2019.10.23-05.03.35:185][437]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (230)
-[2019.10.23-05.03.35:185][437]LogModuleManager: Shutting down and abandoning module MagicLeapController (228)
-[2019.10.23-05.03.35:185][437]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
-[2019.10.23-05.03.35:185][437]LogModuleManager: Shutting down and abandoning module MagicLeapAR (226)
-[2019.10.23-05.03.35:185][437]LogModuleManager: Shutting down and abandoning module AugmentedReality (225)
-[2019.10.23-05.03.35:185][437]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (222)
-[2019.10.23-05.03.35:185][437]LogModuleManager: Shutting down and abandoning module FacialAnimation (220)
-[2019.10.23-05.03.35:185][437]LogModuleManager: Shutting down and abandoning module DataValidation (218)
-[2019.10.23-05.03.35:185][437]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (216)
-[2019.10.23-05.03.35:185][437]LogModuleManager: Shutting down and abandoning module TreeMap (215)
-[2019.10.23-05.03.35:185][437]LogModuleManager: Shutting down and abandoning module AnimationSharing (212)
-[2019.10.23-05.03.35:185][437]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (210)
-[2019.10.23-05.03.35:185][437]LogModuleManager: Shutting down and abandoning module AISupportModule (208)
-[2019.10.23-05.03.35:185][437]LogModuleManager: Shutting down and abandoning module Paper2D (206)
-[2019.10.23-05.03.35:185][437]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (204)
-[2019.10.23-05.03.35:185][437]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (202)
-[2019.10.23-05.03.35:185][437]LogModuleManager: Shutting down and abandoning module PacketHandler (200)
-[2019.10.23-05.03.35:186][437]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (198)
-[2019.10.23-05.03.35:186][437]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (196)
-[2019.10.23-05.03.35:186][437]LogModuleManager: Shutting down and abandoning module MediaAssets (194)
-[2019.10.23-05.03.35:186][437]LogModuleManager: Shutting down and abandoning module Overlay (192)
-[2019.10.23-05.03.35:186][437]LogModuleManager: Shutting down and abandoning module OverlayEditor (191)
-[2019.10.23-05.03.35:186][437]LogModuleManager: Shutting down and abandoning module VREditor (188)
-[2019.10.23-05.03.35:186][437]LogModuleManager: Shutting down and abandoning module StringTableEditor (186)
-[2019.10.23-05.03.35:186][437]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (184)
-[2019.10.23-05.03.35:186][437]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (182)
-[2019.10.23-05.03.35:186][437]LogModuleManager: Shutting down and abandoning module FunctionalTesting (180)
-[2019.10.23-05.03.35:186][437]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (178)
-[2019.10.23-05.03.35:186][437]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (177)
-[2019.10.23-05.03.35:186][437]LogModuleManager: Shutting down and abandoning module UMG (174)
-[2019.10.23-05.03.35:186][437]LogModuleManager: Shutting down and abandoning module UMGEditor (173)
-[2019.10.23-05.03.35:186][437]LogModuleManager: Shutting down and abandoning module Sequencer (172)
-[2019.10.23-05.03.35:186][437]LogModuleManager: Shutting down and abandoning module MessageLog (169)
-[2019.10.23-05.03.35:186][437]LogModuleManager: Shutting down and abandoning module SlateReflector (164)
-[2019.10.23-05.03.35:186][437]LogModuleManager: Shutting down and abandoning module Slate (162)
-[2019.10.23-05.03.35:186][437]LogModuleManager: Shutting down and abandoning module EditorStyle (160)
-[2019.10.23-05.03.35:187][437]LogModuleManager: Shutting down and abandoning module UnrealEd (158)
-[2019.10.23-05.03.35:187][437]LogModuleManager: Shutting down and abandoning module MRMesh (156)
-[2019.10.23-05.03.35:187][437]LogModuleManager: Shutting down and abandoning module Messaging (154)
-[2019.10.23-05.03.35:187][437]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (152)
-[2019.10.23-05.03.35:187][437]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (150)
-[2019.10.23-05.03.35:187][437]LogModuleManager: Shutting down and abandoning module XAudio2 (148)
-[2019.10.23-05.03.35:187][437]LogModuleManager: Shutting down and abandoning module Networking (146)
-[2019.10.23-05.03.35:187][437]LogModuleManager: Shutting down and abandoning module Core (144)
-[2019.10.23-05.03.35:187][437]LogModuleManager: Shutting down and abandoning module KismetCompiler (142)
-[2019.10.23-05.03.35:187][437]LogModuleManager: Shutting down and abandoning module MeshUtilities (140)
-[2019.10.23-05.03.35:187][437]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (139)
-[2019.10.23-05.03.35:187][437]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (138)
-[2019.10.23-05.03.35:187][437]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (137)
-[2019.10.23-05.03.35:187][437]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (135)
-[2019.10.23-05.03.35:187][437]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (133)
-[2019.10.23-05.03.35:187][437]LogModuleManager: Shutting down and abandoning module MaterialBaking (129)
-[2019.10.23-05.03.35:187][437]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (124)
-[2019.10.23-05.03.35:187][437]LogModuleManager: Shutting down and abandoning module DerivedDataCache (122)
-[2019.10.23-05.03.35:653][437]LogDerivedDataCache: Shutdown
-[2019.10.23-05.03.35:653][437]LogModuleManager: Shutting down and abandoning module XGEController (120)
-[2019.10.23-05.03.35:653][437]LogModuleManager: Shutting down and abandoning module TargetPlatform (118)
-[2019.10.23-05.03.35:653][437]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (117)
-[2019.10.23-05.03.35:653][437]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (115)
-[2019.10.23-05.03.35:654][437]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (113)
-[2019.10.23-05.03.35:654][437]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (111)
-[2019.10.23-05.03.35:654][437]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (109)
-[2019.10.23-05.03.35:654][437]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (107)
-[2019.10.23-05.03.35:654][437]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (105)
-[2019.10.23-05.03.35:654][437]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (103)
-[2019.10.23-05.03.35:654][437]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (101)
-[2019.10.23-05.03.35:654][437]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (99)
-[2019.10.23-05.03.35:654][437]LogModuleManager: Shutting down and abandoning module ImageWrapper (98)
-[2019.10.23-05.03.35:654][437]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (95)
-[2019.10.23-05.03.35:654][437]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (93)
-[2019.10.23-05.03.35:654][437]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (91)
-[2019.10.23-05.03.35:654][437]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (89)
-[2019.10.23-05.03.35:654][437]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (87)
-[2019.10.23-05.03.35:654][437]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (85)
-[2019.10.23-05.03.35:654][437]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (83)
-[2019.10.23-05.03.35:654][437]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (81)
-[2019.10.23-05.03.35:654][437]LogModuleManager: Shutting down and abandoning module InputCore (78)
-[2019.10.23-05.03.35:654][437]LogModuleManager: Shutting down and abandoning module Settings (76)
-[2019.10.23-05.03.35:654][437]LogModuleManager: Shutting down and abandoning module PhysXCooking (74)
-[2019.10.23-05.03.35:654][437]LogModuleManager: Shutting down and abandoning module SteamVR (72)
-[2019.10.23-05.03.35:654][437]LogHMD: Freeing OpenVRDLLHandle.
-[2019.10.23-05.03.35:654][437]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
-[2019.10.23-05.03.35:654][437]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
-[2019.10.23-05.03.35:654][437]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
-[2019.10.23-05.03.35:654][437]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (64)
-[2019.10.23-05.03.35:654][437]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (60)
-[2019.10.23-05.03.35:654][437]LogModuleManager: Shutting down and abandoning module XMPP (55)
-[2019.10.23-05.03.35:654][437]LogModuleManager: Shutting down and abandoning module WebSockets (54)
-[2019.10.23-05.03.35:674][437]LogModuleManager: Shutting down and abandoning module HTTP (51)
-[2019.10.23-05.03.35:688][437]LogModuleManager: Shutting down and abandoning module SSL (50)
-[2019.10.23-05.03.35:689][437]LogModuleManager: Shutting down and abandoning module WmfMedia (46)
-[2019.10.23-05.03.35:690][437]LogModuleManager: Shutting down and abandoning module Media (45)
-[2019.10.23-05.03.35:695][437]LogModuleManager: Shutting down and abandoning module MagicLeap (42)
-[2019.10.23-05.03.35:695][437]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
-[2019.10.23-05.03.35:695][437]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
-[2019.10.23-05.03.35:695][437]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
-[2019.10.23-05.03.35:695][437]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
-[2019.10.23-05.03.35:696][437]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
-[2019.10.23-05.03.35:696][437]LogModuleManager: Shutting down and abandoning module RenderCore (30)
-[2019.10.23-05.03.35:696][437]LogModuleManager: Shutting down and abandoning module Landscape (28)
-[2019.10.23-05.03.35:696][437]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
-[2019.10.23-05.03.35:696][437]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
-[2019.10.23-05.03.35:696][437]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
-[2019.10.23-05.03.35:696][437]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
-[2019.10.23-05.03.35:696][437]LogModuleManager: Shutting down and abandoning module Renderer (18)
-[2019.10.23-05.03.35:696][437]LogModuleManager: Shutting down and abandoning module Engine (16)
-[2019.10.23-05.03.35:696][437]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
-[2019.10.23-05.03.35:696][437]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
-[2019.10.23-05.03.35:696][437]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
-[2019.10.23-05.03.35:696][437]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
-[2019.10.23-05.03.35:696][437]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
-[2019.10.23-05.03.35:696][437]LogModuleManager: Shutting down and abandoning module PakFile (4)
-[2019.10.23-05.03.35:696][437]LogModuleManager: Shutting down and abandoning module RSA (3)
-[2019.10.23-05.03.35:703][437]LogExit: Exiting.
-[2019.10.23-05.03.35:713][437]Log file closed, 10/23/19 14:03:35
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Engine.ini]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:1]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[r.GBufferFormat:3]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:512]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[r.RayTracing:1]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:1]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Engine.ini]
+[2019.11.09-15.49.55:599][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Engine.ini]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Engine.ini]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.09-15.49.55:599][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.09-15.49.55:600][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.09-15.49.55:600][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.09-15.49.55:600][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Engine.ini]
+[2019.11.09-15.49.55:600][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Engine.ini]
+[2019.11.09-15.49.55:602][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.09-15.49.55:602][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.09-15.49.55:603][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.09-15.49.55:603][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.09-15.49.55:603][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.09-15.49.55:606][  0]LogHAL: Display: Platform has ~ 32 GB [34197495808 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.09-15.49.55:606][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.11.09-15.49.55:606][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.09-15.49.55:607][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.09-15.49.55:607][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.09-15.49.55:608][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.09-15.49.55:608][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.09-15.49.55:608][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:1]]
+[2019.11.09-15.49.55:608][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Engine.ini]
+[2019.11.09-15.49.55:608][  0]LogInit: Computer: DESKTOP-BGGG2GK
+[2019.11.09-15.49.55:608][  0]LogInit: User: user
+[2019.11.09-15.49.55:608][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.11.09-15.49.55:608][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.09-15.49.55:608][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2019.11.09-15.49.55:608][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.09-15.49.55:608][  0]LogMemory: Process Physical Memory: 102.98 MB used, 102.98 MB peak
+[2019.11.09-15.49.55:608][  0]LogMemory: Process Virtual Memory: 93.82 MB used, 93.82 MB peak
+[2019.11.09-15.49.55:608][  0]LogMemory: Physical Memory: 12897.92 MB used,  19715.36 MB free, 32613.27 MB total
+[2019.11.09-15.49.55:608][  0]LogMemory: Virtual Memory: 4666.01 MB used,  134213064.00 MB free, 134217728.00 MB total
+[2019.11.09-15.49.55:627][  0]LogInit: Using OS detected language (en-US).
+[2019.11.09-15.49.55:627][  0]LogInit: Using OS detected locale (en-US).
+[2019.11.09-15.49.55:627][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.11.09-15.49.55:791][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.09-15.49.55:791][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.09-15.49.55:807][  0]LogD3D12RHI: Aftermath initialized
+[2019.11.09-15.49.55:807][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/DirectX/x64).
+[2019.11.09-15.49.55:844][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.09-15.49.56:091][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce RTX 2070 with Max-Q Design (Max supported Feature Level 12_1)
+[2019.11.09-15.49.56:092][  0]LogD3D12RHI: Adapter has 8031MB of dedicated video memory, 0MB of dedicated system memory, and 16306MB of shared system memory, 1 output[s]
+[2019.11.09-15.49.56:116][  0]LogD3D12RHI: Found D3D12 adapter 1: Intel(R) UHD Graphics 630 (Max supported Feature Level 12_1)
+[2019.11.09-15.49.56:116][  0]LogD3D12RHI: Adapter has 128MB of dedicated video memory, 0MB of dedicated system memory, and 16306MB of shared system memory, 0 output[s]
+[2019.11.09-15.49.56:123][  0]LogD3D12RHI: Found D3D12 adapter 2: Microsoft Basic Render Driver (Max supported Feature Level 12_1)
+[2019.11.09-15.49.56:123][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 16306MB of shared system memory, 0 output[s]
+[2019.11.09-15.49.56:123][  0]LogD3D12RHI: Forcing D3D12.AsyncDeferredDeletion=0 as a workaround for a deadlock on hybrid NVIDIA+Intel systems.
+[2019.11.09-15.49.56:123][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2019.11.09-15.49.56:128][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2019.11.09-15.49.56:236][  0]LogD3D12RHI: D3D12 ray tracing enabled.
+[2019.11.09-15.49.56:236][  0]LogD3D12RHI: The system supports ID3D12Device1.
+[2019.11.09-15.49.56:236][  0]LogD3D12RHI: The system supports ID3D12Device2.
+[2019.11.09-15.49.56:397][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2019.11.09-15.49.56:397][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2019.11.09-15.49.56:398][  0]LogD3D12RHI:     GPU DeviceId: 0x1f10 (for the marketing name, search the web for "GPU Device Id")
+[2019.11.09-15.49.56:398][  0]LogWindows: EnumDisplayDevices:
+[2019.11.09-15.49.56:398][  0]LogWindows:    0. 'Intel(R) UHD Graphics 630' (P:1 D:1)
+[2019.11.09-15.49.56:398][  0]LogWindows:    1. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.11.09-15.49.56:398][  0]LogWindows:    2. 'Intel(R) UHD Graphics 630' (P:0 D:0)
+[2019.11.09-15.49.56:398][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2019.11.09-15.49.56:399][  0]LogWindows:    4. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2019.11.09-15.49.56:399][  0]LogWindows:    5. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2019.11.09-15.49.56:399][  0]LogWindows:    6. 'NVIDIA GeForce RTX 2070 with Max-Q Design' (P:0 D:0)
+[2019.11.09-15.49.56:399][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.11.09-15.49.56:399][  0]LogD3D12RHI:     Adapter Name: NVIDIA GeForce RTX 2070 with Max-Q Design
+[2019.11.09-15.49.56:399][  0]LogD3D12RHI:   Driver Version: 431.86 (internal:26.21.14.3186, unified:431.86)
+[2019.11.09-15.49.56:399][  0]LogD3D12RHI:      Driver Date: 8-27-2019
+[2019.11.09-15.49.56:399][  0]LogRHI: Texture pool is 4300 MB (70% of 6143 MB)
+[2019.11.09-15.49.56:399][  0]LogD3D12RHI: Async texture creation enabled
+[2019.11.09-15.49.56:406][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.09-15.49.56:406][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.09-15.49.56:406][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.09-15.49.56:695][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.09-15.49.56:707][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.09-15.49.56:718][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.09-15.49.56:725][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.09-15.49.56:725][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.09-15.49.56:732][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.09-15.49.56:777][  0]LogShaderCompilers: Guid format shader working directory is -45 characters bigger than the processId version (../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Intermediate/Shaders/WorkingDirectory/2856/).
+[2019.11.09-15.49.56:778][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/user/AppData/Local/Temp/UnrealShaderWorkingDir/5D8644874A4A9D1BF6292A887808CA85/'.
+[2019.11.09-15.49.56:780][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.09-15.49.56:781][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.09-15.49.56:781][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.09-15.49.57:289][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.09-15.49.57:336][  0]LogDerivedDataCache: Loaded boot cache 0.05s 88MB C:/Users/user/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.09-15.49.57:336][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/user/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.11.09-15.49.57:336][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.09-15.49.57:336][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.09-15.49.57:336][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.09-15.49.57:336][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.09-15.49.57:347][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.09-15.49.57:350][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Enterprise/DerivedDataCache/Compressed.ddp.
+[2019.11.09-15.49.57:362][  0]LogDerivedDataCache: Using Local data cache path C:/Users/user/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.09-15.49.57:362][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.09-15.49.57:362][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.09-15.49.57:382][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.09-15.49.57:383][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.09-15.49.57:384][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.09-15.49.57:546][  0]LogInit: Using OS detected language (en-US).
+[2019.11.09-15.49.57:547][  0]LogInit: Using OS detected locale (en-US).
+[2019.11.09-15.49.57:547][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2019.11.09-15.49.57:547][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2019.11.09-15.49.57:547][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2019.11.09-15.49.57:547][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2019.11.09-15.49.57:548][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
+[2019.11.09-15.49.57:555][  0]LogAssetRegistry: FAssetRegistry took 0.0037 seconds to start up
+[2019.11.09-15.49.57:757][  0]LogPackageLocalizationCache: Processed 16 localized package path(s) for 1 prioritized culture(s) in 0.000622 seconds
+[2019.11.09-15.49.57:880][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.09-15.49.57:999][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.09-15.49.57:999][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.09-15.49.57:999][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.09-15.49.57:999][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.09-15.49.57:999][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.09-15.49.58:031][  0]LogNetVersion: Union 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 524765613)
+[2019.11.09-15.49.58:442][  0]LogMoviePlayer: Initializing movie player
+[2019.11.09-15.49.58:483][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 35 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.49.58:502][  0]LogD3D12RHI: Creating RTPSO with 3 shaders (0 cached, 3 new) took 19.06 ms. Compile time 9.07 ms, link time 9.89 ms.
+[2019.11.09-15.49.58:576][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2019.11.09-15.49.58:578][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.09-15.49.58:591][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.09-15.49.58:672][  0]SourceControl: Source control is disabled
+[2019.11.09-15.49.58:672][  0]SourceControl: Source control is disabled
+[2019.11.09-15.49.58:673][  0]SourceControl: Source control is disabled
+[2019.11.09-15.49.58:681][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.11.09-15.49.58:682][  0]LogVSAccessor: Display: Unable to create Visual Studio setup instance: 80040154
+[2019.11.09-15.49.58:711][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.09-15.49.58:770][  0]LogOcInput: OculusInput pre-init called
+[2019.11.09-15.49.58:779][  0]LogUObjectArray: 46700 objects as part of root set at end of initial load.
+[2019.11.09-15.49.58:779][  0]LogUObjectAllocator: 8201464 out of 0 bytes used by permanent object pool.
+[2019.11.09-15.49.58:779][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.09-15.49.58:900][  0]LogEngine: Initializing Engine...
+[2019.11.09-15.49.58:901][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.09-15.49.58:913][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.11.09-15.49.59:053][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.09-15.49.59:066][  0]LogInit: XAudio2 using '스피커 (3- Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.11.09-15.49.59:076][  0]LogInit: FAudioDevice initialized.
+[2019.11.09-15.49.59:087][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.09-15.49.59:089][  0]LogInit: Texture streaming: Enabled
+[2019.11.09-15.49.59:364][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.09-15.49.59:365][  0]LogInit: Display: Game Engine Initialized.
+[2019.11.09-15.49.59:409][  0]LogInit: Display: Starting Game.
+[2019.11.09-15.49.59:410][  0]LogNet: Browse: /Game/Island?Name=Player
+[2019.11.09-15.49.59:413][  0]LogLoad: LoadMap: /Game/Island?Name=Player
+[2019.11.09-15.49.59:437][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2019.11.09-15.49.59:483][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:483][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:483][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:483][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:483][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:483][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:483][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:483][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:484][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:484][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:484][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:484][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:484][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:484][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:484][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:484][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:484][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:484][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:484][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:484][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:484][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:484][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:484][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:484][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:485][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:485][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:485][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:485][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:485][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:485][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:485][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:485][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:485][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:485][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:485][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:485][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:485][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:485][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:485][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:485][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:486][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:486][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:486][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:486][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:486][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:486][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:486][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:486][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:486][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:486][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:486][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:486][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:486][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:486][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:486][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:486][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:487][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:487][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:487][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:487][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:487][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:487][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:487][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:487][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:487][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:487][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:487][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:487][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:487][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:487][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:487][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:487][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:488][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:488][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:488][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:488][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:488][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:488][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:488][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:488][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:488][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:488][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:488][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:488][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:488][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:488][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:488][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:488][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:489][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:489][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:489][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:489][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:489][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:489][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:489][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:489][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:489][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:489][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:489][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:489][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:489][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:489][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:489][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:489][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:490][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:490][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:490][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:490][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:490][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:490][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:490][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:490][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:490][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:490][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:490][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:490][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:490][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:490][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:490][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:491][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:491][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:491][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:491][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:491][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:491][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:491][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:491][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:491][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:491][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:492][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:492][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:492][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:492][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:492][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:492][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:492][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:492][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:492][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:492][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:492][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:492][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:492][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:492][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:492][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:493][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:493][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:493][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:493][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:493][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:493][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:493][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:493][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:493][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:493][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:493][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:493][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:493][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:493][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:493][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:493][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:494][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:494][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:494][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:494][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:494][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:494][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:494][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:494][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:494][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:494][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:494][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:494][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:494][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:494][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:494][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:494][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:495][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:495][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:495][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:495][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:495][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:495][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:495][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:495][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:495][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:495][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:495][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:495][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:495][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:495][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:495][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:495][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:496][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:496][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:496][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:496][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:496][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:496][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:496][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:496][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:496][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:496][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:496][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:496][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:496][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:497][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:497][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:497][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:497][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:497][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:497][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:497][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:497][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:497][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:497][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:497][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:497][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:497][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:497][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:497][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:498][  0]LogLinker: Warning: Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:498][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file '/Script/SpeedTreeImporter'
+[2019.11.09-15.49.59:498][  0]LogLinker: Warning: Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.49.59:498][  0]LogUObjectGlobals: Warning: Failed to load '/Script/SpeedTreeImporter': Can't find file for asset '/Script/SpeedTreeImporter' while loading NULL.
+[2019.11.09-15.50.01:987][  0]LogAIModule: Creating AISystem for world Island
+[2019.11.09-15.50.01:987][  0]LogUObjectGlobals: Warning: Failed to find object 'Class None.'
+[2019.11.09-15.50.01:987][  0]LogLoad: Game class is 'GameModeBase'
+[2019.11.09-15.50.01:999][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 18 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.01:999][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 18 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.01:999][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 18 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.01:999][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 16 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.01:999][  0]LogWorld: Bringing World /Game/Island.Island up for play (max tick rate 0) at 2019.11.10-00.50.01
+[2019.11.09-15.50.02:009][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 18 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.02:009][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 18 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.02:009][  0]LogWorld: Bringing up level for play took: 0.021160
+[2019.11.09-15.50.02:018][  0]LogLoad: Took 2.605442 seconds to LoadMap(/Game/Island)
+[2019.11.09-15.50.02:053][  0]LogAnsel: gameWindowHandle= 00000000001C05FE
+[2019.11.09-15.50.02:053][  0]LogAnsel: We reckon 0.010000 meters to 1 world unit
+[2019.11.09-15.50.02:055][  0]LogCameraPhotography: Photography camera created.  Provider=NVIDIA Ansel, Supported=1
+[2019.11.09-15.50.02:074][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2019.11.09-15.50.02:074][  0]LogLoad: (Engine Initialization) Total time: 8.20 seconds
+[2019.11.09-15.50.02:074][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.09-15.50.02:074][  0]LogAnsel: gameWindowHandle= 00000000001C05FE
+[2019.11.09-15.50.02:074][  0]LogAnsel: We reckon 0.010000 meters to 1 world unit
+[2019.11.09-15.50.02:109][  0]LogStaticMesh: Allocated 512x496x128 distance field atlas = 62.0Mb, with 72 objects containing 49.7Mb backing data
+[2019.11.09-15.50.02:137][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 19 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.02:139][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 24 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.02:139][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 21 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.02:193][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 17 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.02:361][  0]LogD3D12RHI: Creating RTPSO with 39 shaders (0 cached, 39 new) took 215.91 ms. Compile time 195.54 ms, link time 20.25 ms.
+[2019.11.09-15.50.02:368][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 19 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.02:368][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 21 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.02:380][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 13 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.02:390][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 17 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.02:408][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 26 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.02:617][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 23 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.02:621][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 27 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.02:682][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 19 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.02:716][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 21 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.02:780][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 13 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.02:780][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 35 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.02:863][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 15 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.03:022][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 21 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.03:199][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 15 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.03:441][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 13 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.04:489][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.09-15.50.04:590][  0]LogD3D12RHI: Creating RTPSO with 39 shaders (39 cached, 0 new) took 10.56 ms. Compile time 0.00 ms, link time 10.48 ms.
+[2019.11.09-15.50.04:590][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 27 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.04:590][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 39 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.04:592][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 17 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.04:592][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 25 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.04:619][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 29 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.04:771][  0]LogD3D12RHI: Display: Root signature created where the root parameters take up 23 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.08:175][103]LogD3D12RHI: Display: Root signature created where the root parameters take up 18 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.08:175][103]LogD3D12RHI: Display: Root signature created where the root parameters take up 13 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.08:175][103]LogD3D12RHI: Display: Root signature created where the root parameters take up 20 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.08:261][103]LogD3D12RHI: Display: Root signature created where the root parameters take up 25 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.08:375][103]LogD3D12RHI: Display: Root signature created where the root parameters take up 19 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.08:393][103]LogD3D12RHI: Display: Root signature created where the root parameters take up 15 DWORDS. Using more than 12 DWORDs can negatively impact performance depending on the hardware and root parameter usage.
+[2019.11.09-15.50.25:573][608]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.11.09-15.50.25:573][608]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:610).
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.09-15.50.25:573][608]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.09-15.50.25:573][608]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.09-15.50.25:573][608]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.09-15.50.25:573][608]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.09-15.50.25:573][608]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.09-15.50.25:574][608]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.09-15.50.25:574][608]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.09-15.50.25:574][608]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.09-15.50.25:574][608]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.09-15.50.25:574][608]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.09-15.50.25:574][608]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.09-15.50.25:574][608]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.11.09-15.50.25:574][608]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.09-15.50.25:574][608]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.09-15.50.25:574][608]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.09-15.50.25:574][608]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.09-15.50.25:574][608]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.09-15.50.25:574][608]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.09-15.50.25:574][608]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.09-15.50.25:574][608]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.09-15.50.25:574][608]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.09-15.50.25:574][608]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.09-15.50.25:574][608]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.09-15.50.25:574][608]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.09-15.50.25:574][608]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.09-15.50.25:574][608]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/user/Dropbox/Github Repositories/Union-Project2/Proyecto UE4/Union/Saved/Config/Windows/Scalability.ini]
+[2019.11.09-15.50.25:574][608]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.09-15.50.25:574][608]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.09-15.50.31:491][709]r.ScreenPercentage = "300"
+[2019.11.09-15.50.31:491][709]foliage.LODDistanceScale = "1500"
+[2019.11.09-15.50.31:491][709]r.VolumetricFog.GridSizeZ = "256"
+[2019.11.09-15.50.31:491][709]r.VolumetricFog.GridPixelSize = "4"
+[2019.11.09-15.50.31:550][711]LogRenderer: Reallocating scene render targets to support 5760x3240 Format 10 NumSamples 1 (Frame:712).
